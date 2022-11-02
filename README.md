@@ -1,6 +1,6 @@
-# Your Drupal 9 project
+# Drupal platform test
 
-Description of your project.
+A project to test new Drupal platform features.
 
 ## Environments
 
