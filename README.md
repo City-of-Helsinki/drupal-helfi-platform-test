@@ -2,13 +2,6 @@
 
 A project to test new Drupal platform features.
 
-## Environments
-
-Env | Branch | Drush alias | URL
---- | ------ | ----------- | ---
-development | * | - | http://yoursite.docker.so/
-production | main | @main | TBD
-
 ## Requirements
 
 You need to have these applications installed to operate on all environments:
