@@ -1,0 +1,22 @@
+uuid: 8779b3da-6d13-4270-a329-81fc29714c37
+langcode: en
+status: true
+dependencies:
+  theme:
+    - hdbt_admin
+_core:
+  default_config_hash: wArdcE5yHOMxGPYkVpvA_qh4VqlN-j-DJbLFn8yW4gU
+id: hdbt_admin_primary_local_tasks
+theme: hdbt_admin
+region: header
+weight: -5
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

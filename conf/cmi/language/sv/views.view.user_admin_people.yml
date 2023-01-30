@@ -1,0 +1,13 @@
+display:
+  default:
+    display_title: Förvald
+    display_options:
+      fields:
+        status:
+          label: Status
+        operations:
+          label: Funktioner
+      filters:
+        status:
+          group_info:
+            label: Status

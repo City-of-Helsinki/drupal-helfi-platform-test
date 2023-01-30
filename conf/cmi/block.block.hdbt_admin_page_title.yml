@@ -1,0 +1,20 @@
+uuid: 7b03d07a-3a12-4055-aff8-eff02fe89ea5
+langcode: en
+status: true
+dependencies:
+  theme:
+    - hdbt_admin
+_core:
+  default_config_hash: 8A3hI0TVyrgHlC77Kv-TSYM1C0JbwZuAguNuHM44zF4
+id: hdbt_admin_page_title
+theme: hdbt_admin
+region: header
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

@@ -1,0 +1,13 @@
+uuid: 4c886bca-9c56-4dc7-a9da-e5199e941cf3
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 1noCXlegCr5HFehQRF1ViXy1jhU1jZ_sNN99a8Sj5jo
+id: front
+label: 'Front page'
+tags:
+  canonical_url: '[site:url]'
+  shortlink: '[site:url]'
+  og_image: '[node:shareable-image]'
+  twitter_cards_image: '[node:shareable-image]'
