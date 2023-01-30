@@ -1,0 +1,7 @@
+display:
+  default:
+    display_title: Förvald
+    display_options:
+      fields:
+        link:
+          label: Funktioner

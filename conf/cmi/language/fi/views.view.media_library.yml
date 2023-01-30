@@ -1,0 +1,42 @@
+display:
+  default:
+    display_title: Oletus
+    display_options:
+      fields:
+        media_bulk_form:
+          action_title: Toiminto
+      empty:
+        area_text_custom:
+          content: 'Ei mediatiedostoja saatavilla.'
+      filters:
+        status:
+          group_info:
+            label: Julkaistu
+            group_items:
+              1:
+                title: Julkaistu
+        langcode:
+          expose:
+            label: Kieli
+  page:
+    display_options:
+      fields:
+        media_bulk_form:
+          action_title: Toiminto
+        edit_media:
+          text: Muokkaa
+  widget:
+    display_options:
+      arguments:
+        bundle:
+          exception:
+            title: Kaikki
+  widget_table:
+    display_options:
+      fields:
+        uid:
+          label: Kirjoittaja
+      arguments:
+        bundle:
+          exception:
+            title: Kaikki

@@ -1,0 +1,10 @@
+display:
+  default:
+    display_title: Oletus
+    display_options:
+      fields:
+        link:
+          label: Toimenpiteet
+      exposed_form:
+        options:
+          submit_button: Suodata
