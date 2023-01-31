@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "85b6ff669a39540101c921db56979e0e",
+    "content-hash": "bb95e977004e705a2094d296df2ddca5",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -4389,6 +4389,39 @@
                 "issues": "https://github.com/City-of-Helsinki/drupal-module-helfi-media-map/issues"
             },
             "time": "2023-01-16T10:54:33+00:00"
+        },
+        {
+            "name": "drupal/helfi_navigation",
+            "version": "2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/City-of-Helsinki/drupal-module-helfi-navigation.git",
+                "reference": "4e20e6d255b6201b80affeb20cb4bed8265de785"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/City-of-Helsinki/drupal-module-helfi-navigation/zipball/4e20e6d255b6201b80affeb20cb4bed8265de785",
+                "reference": "4e20e6d255b6201b80affeb20cb4bed8265de785",
+                "shasum": ""
+            },
+            "require": {
+                "drupal/helfi_api_base": "*",
+                "php": "^8.0"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
+                "drupal/coder": "^8.3"
+            },
+            "type": "drupal-module",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "description": "Helfi - Navigation",
+            "support": {
+                "source": "https://github.com/City-of-Helsinki/drupal-module-helfi-navigation/tree/2.0.1",
+                "issues": "https://github.com/City-of-Helsinki/drupal-module-helfi-navigation/issues"
+            },
+            "time": "2023-01-31T06:30:38+00:00"
         },
         {
             "name": "drupal/helfi_platform_config",
