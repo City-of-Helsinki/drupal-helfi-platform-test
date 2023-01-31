@@ -47,6 +47,7 @@ settings:
       remote_video: remote_video
       contact_card_listing: contact_card_listing
       chart: chart
+      map: map
     negate: 0
     target_bundles_drag_drop:
       accordion:
@@ -100,6 +101,9 @@ settings:
       list_of_links_item:
         weight: -17
         enabled: false
+      map:
+        weight: -20
+        enabled: true
       phasing:
         weight: 50
         enabled: true

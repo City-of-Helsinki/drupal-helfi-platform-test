@@ -1,0 +1,13 @@
+uuid: c25d67b2-9477-403a-a0e8-cd0e712f2d88
+langcode: en
+status: true
+dependencies:
+  module:
+    - helfi_api_base
+_core:
+  default_config_hash: rsoWUeC-w9TFSc3YGJfQP1Kp4pi3ppl7I412-7DKfXY
+id: tpr_unit_update_action
+label: Update
+type: tpr_unit
+plugin: 'remote_entity:migration_update:tpr_unit'
+configuration: {  }

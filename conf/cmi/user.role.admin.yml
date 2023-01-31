@@ -157,3 +157,8 @@ permissions:
   - 'edit any helfi_chart media'
   - 'edit own helfi_chart media'
   - 'use views bulk edit'
+  - 'create hel_map media'
+  - 'delete any hel_map media'
+  - 'delete own hel_map media'
+  - 'edit any hel_map media'
+  - 'edit own hel_map media'

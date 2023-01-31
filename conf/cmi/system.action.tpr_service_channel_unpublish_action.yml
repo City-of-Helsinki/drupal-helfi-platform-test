@@ -1,0 +1,13 @@
+uuid: e18d58e3-ba9a-477b-9274-5b3511d17774
+langcode: en
+status: true
+dependencies:
+  module:
+    - helfi_tpr
+_core:
+  default_config_hash: 477wledy1ZOHoozhQ7kHiA9Xyga_LEiaNXHgzUHKodw
+id: tpr_service_channel_unpublish_action
+label: 'Unpublish service channel'
+type: tpr_service_channel
+plugin: 'entity:unpublish_action:tpr_service_channel'
+configuration: {  }
