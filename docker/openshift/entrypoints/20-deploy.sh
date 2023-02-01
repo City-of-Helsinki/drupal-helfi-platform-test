@@ -25,7 +25,7 @@ if [ "$(drush state:get deploy_id)" != "$OPENSHIFT_BUILD_NAME" ]; then
 
   # Re-install site with every deployment.
   drush sql:drop -y
-  drush si --existing-config
+  drush si minimal --existing-config
 
   # Disable maintenance mode
   #drush state:set system.maintenance_mode 0 --input-format=integer
