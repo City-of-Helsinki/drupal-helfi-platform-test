@@ -18,7 +18,7 @@
         "drupal/helfi_drupal_tools": "dev-main",
         "drupal/helfi_hauki": "^1.0",
         "drupal/helfi_navigation": "^2.0",
-        "drupal/helfi_platform_config": "^2.14",
+        "drupal/helfi_platform_config": "dev-UHF-8005-add-watson-talbotti-to-leijuke",
         "drupal/helfi_proxy": "^3.0",
         "drupal/helfi_tpr": "^2.1",
         "drupal/helfi_tunnistamo": "^2.2",
