@@ -10,13 +10,13 @@ _core:
   default_config_hash: gki7d4_1zelnVT2H1w3HLvPylPAOS_h4P7XIRQwIKM0
 id: hdbt_page_title
 theme: hdbt
-region: before_content
-weight: -6
+region: content
+weight: -10
 provider: null
 plugin: page_title_block
 settings:
   id: page_title_block
-  label: 'Page title'
+  label: 'Sivun otsikko'
   label_display: '0'
   provider: core
 visibility:

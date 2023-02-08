@@ -1,0 +1,35 @@
+uuid: ac37be5a-1a1a-4b0d-9937-2ca0f7ae283f
+langcode: fi
+status: true
+dependencies:
+  module:
+    - helfi_platform_config
+    - language
+    - system
+  theme:
+    - hdbt
+id: chatleijuke
+theme: hdbt
+region: attachments
+weight: 0
+provider: null
+plugin: chat_leijuke
+settings:
+  id: chat_leijuke
+  label: 'Chat Leijuke'
+  label_display: visible
+  provider: helfi_platform_config
+  chat_title: Talbotti
+  chat_selection: watson_talpa
+visibility:
+  language:
+    id: language
+    negate: false
+    context_mapping:
+      language: '@language.current_language_context:language_interface'
+    langcodes:
+      fi: fi
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/paatoksenteko-ja-hallinto/ota-yhteytta/kaupungin-laskut-ja-maksut\r\n/paatoksenteko-ja-hallinto/ota-yhteytta/kaupungin-laskut-ja-maksut/kaupungille-osoitetut-laskut"
