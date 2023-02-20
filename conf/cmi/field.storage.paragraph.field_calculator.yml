@@ -1,0 +1,26 @@
+uuid: 28d32e28-1c8f-4b3b-92b0-04dbf7d47448
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+_core:
+  default_config_hash: ElUVHCeMqAGVOuon-buxJKt7aNt0Fiadg-1tYSiRSNs
+id: paragraph.field_calculator
+field_name: field_calculator
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: disabled
+      label: Disabled
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

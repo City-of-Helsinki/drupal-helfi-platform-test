@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bb95e977004e705a2094d296df2ddca5",
+    "content-hash": "9fcf8ccd4bb50f6a2a5856eb6434f361",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -4046,16 +4046,16 @@
         },
         {
             "name": "drupal/hdbt",
-            "version": "4.3.15",
+            "version": "dev-UHF-7486_helfi_calculator",
             "source": {
                 "type": "git",
                 "url": "https://github.com/City-of-Helsinki/drupal-hdbt.git",
-                "reference": "7164a22af2de5c5326286a5ae85328ed408515dd"
+                "reference": "9acc75ae0df104289fa7e8afbb5d5781cc6f48a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/City-of-Helsinki/drupal-hdbt/zipball/7164a22af2de5c5326286a5ae85328ed408515dd",
-                "reference": "7164a22af2de5c5326286a5ae85328ed408515dd",
+                "url": "https://api.github.com/repos/City-of-Helsinki/drupal-hdbt/zipball/9acc75ae0df104289fa7e8afbb5d5781cc6f48a6",
+                "reference": "9acc75ae0df104289fa7e8afbb5d5781cc6f48a6",
                 "shasum": ""
             },
             "require": {
@@ -4070,10 +4070,10 @@
                 "Drupal"
             ],
             "support": {
-                "source": "https://github.com/City-of-Helsinki/drupal-hdbt/tree/4.3.15",
+                "source": "https://github.com/City-of-Helsinki/drupal-hdbt/tree/UHF-7486_helfi_calculator",
                 "issues": "https://github.com/City-of-Helsinki/drupal-hdbt/issues"
             },
-            "time": "2023-01-20T07:15:06+00:00"
+            "time": "2023-02-20T10:12:06+00:00"
         },
         {
             "name": "drupal/hdbt_admin",
@@ -17425,6 +17425,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "drupal/hdbt": 20,
         "drupal/helfi_drupal_tools": 20
     },
     "prefer-stable": true,

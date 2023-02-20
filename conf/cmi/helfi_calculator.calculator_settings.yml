@@ -1,0 +1,25 @@
+_core:
+  default_config_hash: nl3go6_UM2FSC86XAgUcr_BhJwanYz1OwLAJNPJYfYw
+langcode: en
+calculator_settings:
+  house_cleaning_service_voucher:
+    active: 0
+    json: '{}'
+  home_care_service_voucher:
+    active: 0
+    json: '{}'
+  home_care_client_payment:
+    active: 0
+    json: '{}'
+  service_housing_service_voucher:
+    active: 0
+    json: '{}'
+  family_with_kids_home_service_client_payment:
+    active: 0
+    json: '{}'
+  daycare_payment:
+    active: 0
+    json: '{}'
+  oral_health_care_procedure:
+    active: 0
+    json: '{}'

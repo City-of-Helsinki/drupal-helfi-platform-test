@@ -1,0 +1,21 @@
+uuid: 0d402258-87d0-4ed1-b026-5bd9b2504107
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+_core:
+  default_config_hash: 1-ACDDTZbE5wi-7xnFgFp9e3u28Husu2ZTPLAisIkGs
+id: paragraph.field_calculator_description
+field_name: field_calculator_description
+entity_type: paragraph
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

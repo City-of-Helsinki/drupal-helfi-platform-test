@@ -1,0 +1,28 @@
+uuid: e2a76878-7194-47bc-9ffa-9c3740602049
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_calculator_description
+    - paragraphs.paragraphs_type.calculator
+  module:
+    - allowed_formats
+    - text
+third_party_settings:
+  allowed_formats:
+    allowed_formats:
+      - minimal
+_core:
+  default_config_hash: p6Fu4SDDfqdSz7Mg5xScPzE8eLGafw2wIAs0ZXl3sbo
+id: paragraph.calculator.field_calculator_description
+field_name: field_calculator_description
+entity_type: paragraph
+bundle: calculator
+label: Description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
