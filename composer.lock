@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9fcf8ccd4bb50f6a2a5856eb6434f361",
+    "content-hash": "5ad14ca6cc8aeb416d783cd3aa39c14e",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -4425,16 +4425,16 @@
         },
         {
             "name": "drupal/helfi_platform_config",
-            "version": "2.16.7",
+            "version": "dev-UHF-8071-new-ibm-chat-app",
             "source": {
                 "type": "git",
                 "url": "https://github.com/City-of-Helsinki/drupal-helfi-platform-config.git",
-                "reference": "05ca0d86904a21403d610012f239f362ccb5ca42"
+                "reference": "954a7e8fbd76ce5ecab99b92c64a0f104d5d884a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/City-of-Helsinki/drupal-helfi-platform-config/zipball/05ca0d86904a21403d610012f239f362ccb5ca42",
-                "reference": "05ca0d86904a21403d610012f239f362ccb5ca42",
+                "url": "https://api.github.com/repos/City-of-Helsinki/drupal-helfi-platform-config/zipball/954a7e8fbd76ce5ecab99b92c64a0f104d5d884a",
+                "reference": "954a7e8fbd76ce5ecab99b92c64a0f104d5d884a",
                 "shasum": ""
             },
             "require": {
@@ -4445,7 +4445,6 @@
                 "drupal/config_replace": "^2.0",
                 "drupal/config_rewrite": "^1.4",
                 "drupal/content_lock": "^2.2",
-                "drupal/core-recommended": ">=9.3",
                 "drupal/crop": "^2.1",
                 "drupal/default_content": "^2.0.0-alpha2",
                 "drupal/diff": "^1.0",
@@ -4494,7 +4493,8 @@
                 "drupal/update_helper": "^2.0",
                 "drupal/view_unpublished": "^1.0",
                 "drupal/views_bulk_edit": "^2.7",
-                "drupal/views_bulk_operations": "^4.1"
+                "drupal/views_bulk_operations": "^4.1",
+                "ext-curl": "*"
             },
             "conflict": {
                 "drupal/core-recommended": "<9.5",
@@ -4545,10 +4545,10 @@
             ],
             "description": "HELfi platform config",
             "support": {
-                "source": "https://github.com/City-of-Helsinki/drupal-helfi-platform-config/tree/2.16.7",
+                "source": "https://github.com/City-of-Helsinki/drupal-helfi-platform-config/tree/UHF-8071-new-ibm-chat-app",
                 "issues": "https://github.com/City-of-Helsinki/drupal-helfi-platform-config/issues"
             },
-            "time": "2023-01-27T07:26:28+00:00"
+            "time": "2023-02-21T13:51:19+00:00"
         },
         {
             "name": "drupal/helfi_proxy",
@@ -17426,7 +17426,8 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "drupal/hdbt": 20,
-        "drupal/helfi_drupal_tools": 20
+        "drupal/helfi_drupal_tools": 20,
+        "drupal/helfi_platform_config": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
