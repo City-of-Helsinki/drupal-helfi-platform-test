@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.storage.paragraph.field_liftup_with_image_image
+    - media.type.gredi_asset
     - media.type.image
     - paragraphs.paragraphs_type.liftup_with_image
 _core:
@@ -22,10 +23,11 @@ settings:
   handler: 'default:media'
   handler_settings:
     target_bundles:
+      gredi_asset: gredi_asset
       image: image
     sort:
       field: _none
       direction: ASC
     auto_create: false
-    auto_create_bundle: ''
+    auto_create_bundle: gredi_asset
 field_type: entity_reference

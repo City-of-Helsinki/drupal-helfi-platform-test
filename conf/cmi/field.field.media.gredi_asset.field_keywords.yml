@@ -1,0 +1,21 @@
+uuid: 13af2e9d-0463-449d-bbe5-1f73452c6dda
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_keywords
+    - media.type.gredi_asset
+_core:
+  default_config_hash: 7nePEF3ON71yuDugljtjsMeMdOgI9JURvH9-Rp-yjzE
+id: media.gredi_asset.field_keywords
+field_name: field_keywords
+entity_type: media
+bundle: gredi_asset
+label: Keywords
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

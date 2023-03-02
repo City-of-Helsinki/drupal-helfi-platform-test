@@ -1,0 +1,23 @@
+uuid: 12559fcd-a457-4ab9-b7af-77ad2e7ff4a9
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.gredi_asset
+  module:
+    - content_translation
+  enforced:
+    module:
+      - helfi_gredi
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+_core:
+  default_config_hash: SRuBAMOfJsW2wjgcvkBpfauxzLEXp9L9A31ZTJcZMaI
+id: media.gredi_asset
+target_entity_type_id: media
+target_bundle: gredi_asset
+default_langcode: site_default
+language_alterable: true
