@@ -238,31 +238,12 @@ if ($env = getenv('APP_ENV')) {
   }
 }
 
-if ($api_url = getenv('GREDI_API_URL')) {
-  $config['helfi_gredi.settings']['api_url'] = $api_url;
-}
-
 // Gredi Environment variables.
-if ($gredi_username = getenv('GREDI_USERNAME')) {
-  $config['helfi_gredi.settings']['username'] = $gredi_username;
-}
-
-if ($gredi_username = getenv('GREDI_USERNAME')) {
-  $config['helfi_gredi.settings']['username'] = $gredi_username;
-}
-
-if ($gredi_password = getenv('GREDI_PASSWORD')) {
-  $config['helfi_gredi.settings']['password'] = $gredi_password;
-}
-
-if ($gredi_customer = getenv('GREDI_CUSTOMER')) {
-  $config['helfi_gredi.settings']['customer'] = $gredi_customer;
-}
-
-if ($gredi_customer_id = getenv('GREDI_CUSTOMER_ID')) {
-  $config['helfi_gredi.settings']['customer_id'] = $gredi_customer_id;
-}
-
-if ($gredi_upload_folder = getenv('GREDI_UPLOAD_FOLDER_ID')) {
-  $config['helfi_gredi.settings']['upload_folder_id'] = $gredi_upload_folder;
+if ($gredi_api_url = getenv('GREDI_API_URL')) {
+  $config['helfi_gredi.settings']['api_url'] = $gredi_api_url;
+  $config['helfi_gredi.settings']['username'] = getenv('GREDI_USERNAME');
+  $config['helfi_gredi.settings']['password'] = getenv('GREDI_PASSWORD');
+  $config['helfi_gredi.settings']['customer'] = getenv('GREDI_CUSTOMER');
+  $config['helfi_gredi.settings']['customer_id'] = getenv('GREDI_CUSTOMER_ID');
+  $config['helfi_gredi.settings']['upload_folder_id'] = getenv('GREDI_UPLOAD_FOLDER_ID');
 }
