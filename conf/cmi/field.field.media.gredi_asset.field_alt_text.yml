@@ -1,0 +1,21 @@
+uuid: ad43b85e-6305-4d96-9ac8-c91a295374e0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_alt_text
+    - media.type.gredi_asset
+_core:
+  default_config_hash: k1REy67f9zaHRZp2Ym8ZfpmQyUXAWdC4jwbkhwx1M9M
+id: media.gredi_asset.field_alt_text
+field_name: field_alt_text
+entity_type: media
+bundle: gredi_asset
+label: 'Alt text'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

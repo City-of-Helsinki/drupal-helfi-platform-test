@@ -237,3 +237,13 @@ if ($env = getenv('APP_ENV')) {
     include __DIR__ . '/azure.settings.php';
   }
 }
+
+// Gredi Environment variables.
+if ($gredi_api_url = getenv('GREDI_API_URL')) {
+  $config['helfi_gredi.settings']['api_url'] = $gredi_api_url;
+  $config['helfi_gredi.settings']['username'] = getenv('GREDI_USERNAME');
+  $config['helfi_gredi.settings']['password'] = getenv('GREDI_PASSWORD');
+  $config['helfi_gredi.settings']['customer'] = getenv('GREDI_CUSTOMER');
+  $config['helfi_gredi.settings']['customer_id'] = getenv('GREDI_CUSTOMER_ID');
+  $config['helfi_gredi.settings']['upload_folder_id'] = getenv('GREDI_UPLOAD_FOLDER_ID');
+}

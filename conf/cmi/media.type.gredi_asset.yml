@@ -1,0 +1,23 @@
+uuid: 346e7bd1-078d-4f24-88e7-40e3975e0537
+langcode: en
+status: true
+dependencies:
+  module:
+    - helfi_gredi
+  enforced:
+    module:
+      - helfi_gredi
+_core:
+  default_config_hash: avabuOOpl6zelbbhZUG1kaCqPzzp50PW6baWfrpRqJs
+id: gredi_asset
+label: 'Gredi Image'
+description: ''
+source: gredi_asset
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_image
+field_map:
+  257: field_keywords
+  1410: field_alt_text
+  original_file: field_media_image

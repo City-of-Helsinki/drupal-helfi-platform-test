@@ -46,6 +46,7 @@ module:
   helfi_contact_cards: 0
   helfi_content: 0
   helfi_gdpr_compliance: 0
+  helfi_gredi: 0
   helfi_languages: 0
   helfi_media: 0
   helfi_platform_config: 0
@@ -102,6 +103,7 @@ module:
   view_unpublished: 0
   views_bulk_edit: 0
   views_bulk_operations: 0
+  views_remote_data: 0
   views_ui: 0
   pathauto: 1
   content_translation: 10

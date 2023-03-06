@@ -1,0 +1,37 @@
+uuid: ddf952c6-0671-4db0-a836-67268185f338
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.gredi_asset.field_alt_text
+    - field.field.media.gredi_asset.field_keywords
+    - field.field.media.gredi_asset.field_media_image
+    - media.type.gredi_asset
+  module:
+    - image
+_core:
+  default_config_hash: '-sXBx2uDJlDvi6yNol63RrKC3CR0-j77O0HD4Ywriyc'
+id: media.gredi_asset.default
+targetEntityType: media
+bundle: gredi_asset
+mode: default
+content:
+  thumbnail:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  field_alt_text: true
+  field_keywords: true
+  field_media_image: true
+  langcode: true
+  name: true
+  uid: true

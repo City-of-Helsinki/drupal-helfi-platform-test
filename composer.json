@@ -16,6 +16,7 @@
         "drupal/helfi_ahjo": "^1.0",
         "drupal/helfi_azure_fs": "^1.1",
         "drupal/helfi_drupal_tools": "dev-main",
+        "drupal/helfi_gredi": "*",
         "drupal/helfi_hauki": "^1.0",
         "drupal/helfi_navigation": "^2.0",
         "drupal/helfi_platform_config": "dev-UHF-8071-new-ibm-chat-app",
