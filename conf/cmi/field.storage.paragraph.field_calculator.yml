@@ -16,6 +16,9 @@ settings:
     -
       value: disabled
       label: Disabled
+    -
+      value: daycare_payment
+      label: 'Daycare payment'
   allowed_values_function: ''
 module: options
 locked: false

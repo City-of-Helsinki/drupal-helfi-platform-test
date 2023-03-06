@@ -18,8 +18,8 @@ calculator_settings:
     active: 0
     json: '{}'
   daycare_payment:
-    active: 0
-    json: '{}'
+    active: 1
+    json: "{\r\n  \"family_size_income_limits\": {\r\n    \"2\": {\r\n      \"min\": 3874,\r\n      \"max\": 6626\r\n    },\r\n    \"3\": {\r\n      \"min\": 4998,\r\n      \"max\": 7750\r\n    },\r\n    \"4\": {\r\n      \"min\": 5675,\r\n      \"max\": 8427\r\n    },\r\n    \"5\": {\r\n      \"min\": 6353,\r\n      \"max\": 9105\r\n    },\r\n    \"6\": {\r\n      \"min\": 7028,\r\n      \"max\": 9780\r\n    }\r\n  },\r\n  \"family_size_beyond_defined_multiplier_euro\": 262,\r\n  \"minimum_payment_euro\": 28,\r\n  \"payment_percentage\": 10.7,\r\n  \"child_1_max_euro\": 295,\r\n  \"child_2_percent\": 40,\r\n  \"child_n_percent\": 20,\r\n  \"discounts\": {\r\n    \"early_education_on_weekdays\": {\r\n      \"over_7_hours_percentage\": 100,\r\n      \"over_5_and_at_most_7_hours_percentage\": 80,\r\n      \"at_most_5_hours_percentage\": 60\r\n    },\r\n    \"for_5_year_old\": {\r\n      \"over_7_hours_percentage\": 65,\r\n      \"over_5_and_at_most_7_hours_percentage\": 40,\r\n      \"over_4_and_at_most_5_hours_percentage\": 20,\r\n      \"at_most_4_hours_percentage\": 0\r\n    },\r\n    \"for_6_year_old\": {\r\n      \"over_7_hours_percentage\": 65,\r\n      \"from_7_to_8_hours_percentage\": 60,\r\n      \"over_5_and_at_most_7_hours_percentage\": 40,\r\n      \"at_most_5_hours_percentage\": 20\r\n    },\r\n    \"round_the_clock_care\": {\r\n      \"from_161_hours_percentage\": 100,\r\n      \"from_101_to_160_hours_percentage\": 80,\r\n      \"from_61_to_100_hours_percentage\": 60\r\n    },\r\n    \"free_day_percentage\": 4\r\n  }\r\n}"
   oral_health_care_procedure:
     active: 0
     json: '{}'
