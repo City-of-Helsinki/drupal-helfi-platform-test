@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5ad14ca6cc8aeb416d783cd3aa39c14e",
+    "content-hash": "94e7a2a7508b47278b3fc209ebfad8b2",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -4050,16 +4050,16 @@
         },
         {
             "name": "drupal/hdbt",
-            "version": "dev-UHF-7486_helfi_calculator",
+            "version": "dev-UHF-7486_helfi_calculator_with_4.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/City-of-Helsinki/drupal-hdbt.git",
-                "reference": "9acc75ae0df104289fa7e8afbb5d5781cc6f48a6"
+                "reference": "f74a129291881a012dda4fb509f40cf7bc0aef61"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/City-of-Helsinki/drupal-hdbt/zipball/9acc75ae0df104289fa7e8afbb5d5781cc6f48a6",
-                "reference": "9acc75ae0df104289fa7e8afbb5d5781cc6f48a6",
+                "url": "https://api.github.com/repos/City-of-Helsinki/drupal-hdbt/zipball/f74a129291881a012dda4fb509f40cf7bc0aef61",
+                "reference": "f74a129291881a012dda4fb509f40cf7bc0aef61",
                 "shasum": ""
             },
             "require": {
@@ -4074,10 +4074,10 @@
                 "Drupal"
             ],
             "support": {
-                "source": "https://github.com/City-of-Helsinki/drupal-hdbt/tree/UHF-7486_helfi_calculator",
+                "source": "https://github.com/City-of-Helsinki/drupal-hdbt/tree/UHF-7486_helfi_calculator_with_4.5.0",
                 "issues": "https://github.com/City-of-Helsinki/drupal-hdbt/issues"
             },
-            "time": "2023-02-20T10:12:06+00:00"
+            "time": "2023-03-06T08:41:26+00:00"
         },
         {
             "name": "drupal/hdbt_admin",
