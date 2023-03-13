@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "94e7a2a7508b47278b3fc209ebfad8b2",
+    "content-hash": "2da1ec1de13a1ea0e504b21eb558e35c",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -4050,16 +4050,16 @@
         },
         {
             "name": "drupal/hdbt",
-            "version": "dev-UHF-7486_helfi_calculator_with_4.5.0",
+            "version": "dev-UHF-7482_homecare_voucher",
             "source": {
                 "type": "git",
                 "url": "https://github.com/City-of-Helsinki/drupal-hdbt.git",
-                "reference": "f74a129291881a012dda4fb509f40cf7bc0aef61"
+                "reference": "d22d451ce17fb84a8510fba2ea5c33a88db265d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/City-of-Helsinki/drupal-hdbt/zipball/f74a129291881a012dda4fb509f40cf7bc0aef61",
-                "reference": "f74a129291881a012dda4fb509f40cf7bc0aef61",
+                "url": "https://api.github.com/repos/City-of-Helsinki/drupal-hdbt/zipball/d22d451ce17fb84a8510fba2ea5c33a88db265d9",
+                "reference": "d22d451ce17fb84a8510fba2ea5c33a88db265d9",
                 "shasum": ""
             },
             "require": {
@@ -4074,10 +4074,10 @@
                 "Drupal"
             ],
             "support": {
-                "source": "https://github.com/City-of-Helsinki/drupal-hdbt/tree/UHF-7486_helfi_calculator_with_4.5.0",
+                "source": "https://github.com/City-of-Helsinki/drupal-hdbt/tree/UHF-7482_homecare_voucher",
                 "issues": "https://github.com/City-of-Helsinki/drupal-hdbt/issues"
             },
-            "time": "2023-03-06T08:41:26+00:00"
+            "time": "2023-03-13T11:16:01+00:00"
         },
         {
             "name": "drupal/hdbt_admin",

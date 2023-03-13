@@ -11,7 +11,7 @@
         "cweagans/composer-patches": "^1.6.7",
         "drupal/core-composer-scaffold": "^9.3",
         "drupal/core-recommended": "^9.3",
-        "drupal/hdbt": "dev-UHF-7486_helfi_calculator_with_4.5.0",
+        "drupal/hdbt": "dev-UHF-7482_homecare_voucher",
         "drupal/hdbt_admin": "^1.8",
         "drupal/helfi_ahjo": "^1.0",
         "drupal/helfi_azure_fs": "^1.1",
