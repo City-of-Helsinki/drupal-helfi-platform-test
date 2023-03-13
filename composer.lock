@@ -4054,12 +4054,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/City-of-Helsinki/drupal-hdbt.git",
-                "reference": "d22d451ce17fb84a8510fba2ea5c33a88db265d9"
+                "reference": "a67ca9948b0a64427eb14fd2a498016a13491bb4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/City-of-Helsinki/drupal-hdbt/zipball/d22d451ce17fb84a8510fba2ea5c33a88db265d9",
-                "reference": "d22d451ce17fb84a8510fba2ea5c33a88db265d9",
+                "url": "https://api.github.com/repos/City-of-Helsinki/drupal-hdbt/zipball/a67ca9948b0a64427eb14fd2a498016a13491bb4",
+                "reference": "a67ca9948b0a64427eb14fd2a498016a13491bb4",
                 "shasum": ""
             },
             "require": {
@@ -4077,7 +4077,7 @@
                 "source": "https://github.com/City-of-Helsinki/drupal-hdbt/tree/UHF-7482_homecare_voucher",
                 "issues": "https://github.com/City-of-Helsinki/drupal-hdbt/issues"
             },
-            "time": "2023-03-13T11:16:01+00:00"
+            "time": "2023-03-13T13:28:19+00:00"
         },
         {
             "name": "drupal/hdbt_admin",
