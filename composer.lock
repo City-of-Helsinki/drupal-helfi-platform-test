@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2da1ec1de13a1ea0e504b21eb558e35c",
+    "content-hash": "1ceee08236e57f3b1010c880336d1b52",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -4050,16 +4050,16 @@
         },
         {
             "name": "drupal/hdbt",
-            "version": "dev-UHF-7482_homecare_voucher",
+            "version": "4.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/City-of-Helsinki/drupal-hdbt.git",
-                "reference": "a67ca9948b0a64427eb14fd2a498016a13491bb4"
+                "reference": "54cf9b82003bca8014d67bde023e0961c4d89a75"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/City-of-Helsinki/drupal-hdbt/zipball/a67ca9948b0a64427eb14fd2a498016a13491bb4",
-                "reference": "a67ca9948b0a64427eb14fd2a498016a13491bb4",
+                "url": "https://api.github.com/repos/City-of-Helsinki/drupal-hdbt/zipball/54cf9b82003bca8014d67bde023e0961c4d89a75",
+                "reference": "54cf9b82003bca8014d67bde023e0961c4d89a75",
                 "shasum": ""
             },
             "require": {
@@ -4074,10 +4074,10 @@
                 "Drupal"
             ],
             "support": {
-                "source": "https://github.com/City-of-Helsinki/drupal-hdbt/tree/UHF-7482_homecare_voucher",
+                "source": "https://github.com/City-of-Helsinki/drupal-hdbt/tree/4.7.0",
                 "issues": "https://github.com/City-of-Helsinki/drupal-hdbt/issues"
             },
-            "time": "2023-03-13T13:28:19+00:00"
+            "time": "2023-03-30T11:16:39+00:00"
         },
         {
             "name": "drupal/hdbt_admin",
@@ -17519,7 +17519,6 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "drupal/hdbt": 20,
         "drupal/helfi_drupal_tools": 20,
         "drupal/helfi_platform_config": 20
     },
