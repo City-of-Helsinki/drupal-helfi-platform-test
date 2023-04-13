@@ -11,6 +11,7 @@
         "cweagans/composer-patches": "^1.6.7",
         "drupal/core-composer-scaffold": "^9.3",
         "drupal/core-recommended": "^9.3",
+        "drupal/devel_entity_updates": "^3.0",
         "drupal/hdbt": "4.7.0",
         "drupal/hdbt_admin": "^1.8",
         "drupal/helfi_ahjo": "^1.0",
