@@ -4709,12 +4709,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/City-of-Helsinki/drupal-module-helfi-gredi.git",
-                "reference": "d52bbf4c9f9fdd9593e19e0f64ef62257ad8df6a"
+                "reference": "1dd82d7dde06e6acbb2cb4c009c777c1f2938256"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/City-of-Helsinki/drupal-module-helfi-gredi/zipball/d52bbf4c9f9fdd9593e19e0f64ef62257ad8df6a",
-                "reference": "d52bbf4c9f9fdd9593e19e0f64ef62257ad8df6a",
+                "url": "https://api.github.com/repos/City-of-Helsinki/drupal-module-helfi-gredi/zipball/1dd82d7dde06e6acbb2cb4c009c777c1f2938256",
+                "reference": "1dd82d7dde06e6acbb2cb4c009c777c1f2938256",
                 "shasum": ""
             },
             "require": {
@@ -4743,7 +4743,7 @@
                 "source": "https://github.com/City-of-Helsinki/drupal-module-helfi-gredi/tree/dev",
                 "issues": "https://github.com/City-of-Helsinki/drupal-module-helfi-gredi/issues"
             },
-            "time": "2023-04-12T13:42:08+00:00"
+            "time": "2023-05-02T07:23:40+00:00"
         },
         {
             "name": "drupal/helfi_hauki",

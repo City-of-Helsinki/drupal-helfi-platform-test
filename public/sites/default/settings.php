@@ -246,4 +246,5 @@ if ($gredi_api_url = getenv('GREDI_API_URL')) {
   $config['helfi_gredi.settings']['customer'] = getenv('GREDI_CUSTOMER');
   $config['helfi_gredi.settings']['customer_id'] = getenv('GREDI_CUSTOMER_ID');
   $config['helfi_gredi.settings']['upload_folder_id'] = getenv('GREDI_UPLOAD_FOLDER_ID');
+  $config['helfi_gredi.settings']['root_folder_id'] = getenv('GREDI_ROOT_FOLDER_ID');
 }
