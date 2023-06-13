@@ -1,0 +1,21 @@
+uuid: c1826cb8-7f29-41f8-a70c-84b81e4fdc9e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_type_id
+    - taxonomy.vocabulary.sote_section
+_core:
+  default_config_hash: wtCpur0woWm2X1jE9KiUY2tgN9qxWG3Amp8Czo8Drhg
+id: taxonomy_term.sote_section.field_type_id
+field_name: field_type_id
+entity_type: taxonomy_term
+bundle: sote_section
+label: 'Type Id'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

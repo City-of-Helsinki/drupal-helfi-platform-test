@@ -1,0 +1,21 @@
+uuid: f0068e53-7ce8-4a80-8995-5b897aadeba3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_section_type
+    - taxonomy.vocabulary.sote_section
+_core:
+  default_config_hash: Tx7mIrvYViu4qPgPdeMvyvQvfcUFV0fY4s2mqGkzkEg
+id: taxonomy_term.sote_section.field_section_type
+field_name: field_section_type
+entity_type: taxonomy_term
+bundle: sote_section
+label: 'Section Type'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

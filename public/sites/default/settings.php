@@ -248,3 +248,10 @@ if ($gredi_api_url = getenv('GREDI_API_URL')) {
   $config['helfi_gredi.settings']['upload_folder_id'] = getenv('GREDI_UPLOAD_FOLDER_ID');
   $config['helfi_gredi.settings']['root_folder_id'] = getenv('GREDI_ROOT_FOLDER_ID');
 }
+
+// Ahjo Organisation Environment variables.
+if ($ahjo_base_url = getenv('AHJO_BASE_URL)')) {
+  $config['helfi_ahjo.config']['base_url'] = $ahjo_base_url;
+  $config['helfi_ahjo.config']['api_key'] = getenv('AHJO_API_KEY');
+  $config['helfi_ahjo.config']['organigram_max_depth'] = getenv('AHJO_ORG_MAX_DEPTH');
+}

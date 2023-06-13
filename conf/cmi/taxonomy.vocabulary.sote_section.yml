@@ -1,0 +1,10 @@
+uuid: 57f548f9-6eb9-4d43-8da7-9371a080e273
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: PuOtLHbh-d3kE2oPsa14FZ0XBu9f5jCn-dq-uAFgYug
+name: 'Sote Section'
+vid: sote_section
+description: ''
+weight: 0

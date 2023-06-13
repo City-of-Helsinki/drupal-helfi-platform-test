@@ -6,6 +6,7 @@ dependencies:
     - field.storage.node.field_content
     - node.type.landing_page
     - paragraphs.paragraphs_type.banner
+    - paragraphs.paragraphs_type.chart
     - paragraphs.paragraphs_type.columns
     - paragraphs.paragraphs_type.content_cards
     - paragraphs.paragraphs_type.content_liftup
@@ -14,6 +15,7 @@ dependencies:
     - paragraphs.paragraphs_type.list_of_links
     - paragraphs.paragraphs_type.phasing
     - paragraphs.paragraphs_type.remote_video
+    - paragraphs.paragraphs_type.sote_section
   module:
     - entity_reference_revisions
 _core:
@@ -32,16 +34,17 @@ settings:
   handler: 'default:paragraph'
   handler_settings:
     target_bundles:
+      content_cards: content_cards
+      content_liftup: content_liftup
       columns: columns
       banner: banner
       list_of_links: list_of_links
       liftup_with_image: liftup_with_image
-      content_cards: content_cards
-      content_liftup: content_liftup
       from_library: from_library
+      chart: chart
       remote_video: remote_video
       phasing: phasing
-      chart: chart
+      sote_section: sote_section
     negate: 0
     target_bundles_drag_drop:
       accordion:
@@ -53,12 +56,21 @@ settings:
       banner:
         weight: -26
         enabled: true
+      calculator:
+        weight: 33
+        enabled: false
       chart:
         weight: 25
         enabled: true
       columns:
         weight: -27
         enabled: true
+      contact_card:
+        weight: 36
+        enabled: false
+      contact_card_listing:
+        weight: 37
+        enabled: false
       content_cards:
         weight: -33
         enabled: true
@@ -95,9 +107,30 @@ settings:
       phasing_item:
         weight: 30
         enabled: false
+      popular_service_item:
+        weight: 50
+        enabled: false
+      popular_services:
+        weight: 51
+        enabled: false
       remote_video:
         weight: 27
         enabled: true
+      sidebar_text:
+        weight: 53
+        enabled: false
+      social_media_link:
+        weight: 54
+        enabled: false
+      sote_section:
+        weight: 55
+        enabled: true
+      target_group_link_item:
+        weight: 56
+        enabled: false
+      target_group_links:
+        weight: 57
+        enabled: false
       text:
         weight: -15
         enabled: false
