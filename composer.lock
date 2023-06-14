@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "429a4923a7076829b98d8c84e3cc8b83",
+    "content-hash": "64a9722b5165438fa2108ff22647e816",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -5035,16 +5035,16 @@
         },
         {
             "name": "drupal/helfi_ahjo",
-            "version": "1.0.5",
+            "version": "1.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/City-of-Helsinki/drupal-module-helfi-ahjo-org-chart.git",
-                "reference": "51649b2ac228120829578b9cdeff72065c993635"
+                "reference": "2c385ecb0c5dd3641320fdfd88b5b0ba1ca6feb2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/City-of-Helsinki/drupal-module-helfi-ahjo-org-chart/zipball/51649b2ac228120829578b9cdeff72065c993635",
-                "reference": "51649b2ac228120829578b9cdeff72065c993635",
+                "url": "https://api.github.com/repos/City-of-Helsinki/drupal-module-helfi-ahjo-org-chart/zipball/2c385ecb0c5dd3641320fdfd88b5b0ba1ca6feb2",
+                "reference": "2c385ecb0c5dd3641320fdfd88b5b0ba1ca6feb2",
                 "shasum": ""
             },
             "require": {
@@ -5070,10 +5070,10 @@
             ],
             "description": "Organisation information for SOTE section of päätökset site",
             "support": {
-                "source": "https://github.com/City-of-Helsinki/drupal-module-helfi-ahjo-org-chart/tree/1.0.5",
+                "source": "https://github.com/City-of-Helsinki/drupal-module-helfi-ahjo-org-chart/tree/1.0.6",
                 "issues": "https://github.com/City-of-Helsinki/drupal-module-helfi-ahjo-org-chart/issues"
             },
-            "time": "2023-06-12T12:44:56+00:00"
+            "time": "2023-06-14T08:24:54+00:00"
         },
         {
             "name": "drupal/helfi_api_base",
