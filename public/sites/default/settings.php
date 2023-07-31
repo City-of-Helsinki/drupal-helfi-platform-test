@@ -97,6 +97,8 @@ if ($blob_storage_name = getenv('AZURE_BLOB_STORAGE_NAME')) {
         'protocol' => 'https',
       ],
       'cache' => TRUE,
+//      'serve_js' => TRUE,
+      'serve_css' => TRUE,
     ],
   ];
   $config['helfi_azure_fs.settings']['use_blob_storage'] = TRUE;

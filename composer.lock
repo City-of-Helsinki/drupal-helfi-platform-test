@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "64a9722b5165438fa2108ff22647e816",
+    "content-hash": "c2dee8f0375c0685cf95c7a767f5a7be",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -5479,16 +5479,16 @@
         },
         {
             "name": "drupal/helfi_proxy",
-            "version": "3.0.2",
+            "version": "dev-PLATTA-4944-assets-azure",
             "source": {
                 "type": "git",
                 "url": "https://github.com/City-of-Helsinki/drupal-module-helfi-proxy.git",
-                "reference": "467379e347873021e9218e330732b29c51fdad1a"
+                "reference": "41342760c4c8f5d06cb6c3301949b012800d7fe9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/City-of-Helsinki/drupal-module-helfi-proxy/zipball/467379e347873021e9218e330732b29c51fdad1a",
-                "reference": "467379e347873021e9218e330732b29c51fdad1a",
+                "url": "https://api.github.com/repos/City-of-Helsinki/drupal-module-helfi-proxy/zipball/41342760c4c8f5d06cb6c3301949b012800d7fe9",
+                "reference": "41342760c4c8f5d06cb6c3301949b012800d7fe9",
                 "shasum": ""
             },
             "require": {
@@ -5505,6 +5505,9 @@
             "require-dev": {
                 "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
                 "drupal/coder": "^8.3",
+                "drupal/helfi_tunnistamo": "*",
+                "drupal/redirect": "^1.0",
+                "drupal/simple_sitemap": "^4.1",
                 "phpspec/prophecy-phpunit": "^2"
             },
             "type": "drupal-module",
@@ -5513,10 +5516,10 @@
             ],
             "description": "Provides various fixes so we can serve multiple Drupal instances in one domain.",
             "support": {
-                "source": "https://github.com/City-of-Helsinki/drupal-module-helfi-proxy/tree/3.0.2",
+                "source": "https://github.com/City-of-Helsinki/drupal-module-helfi-proxy/tree/PLATTA-4944-assets-azure",
                 "issues": "https://github.com/City-of-Helsinki/drupal-module-helfi-proxy/issues"
             },
-            "time": "2023-01-16T09:45:08+00:00"
+            "time": "2023-07-31T08:17:34+00:00"
         },
         {
             "name": "drupal/helfi_tpr",
@@ -17940,7 +17943,8 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "drupal/helfi_drupal_tools": 20,
-        "drupal/helfi_platform_config": 20
+        "drupal/helfi_platform_config": 20,
+        "drupal/helfi_proxy": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

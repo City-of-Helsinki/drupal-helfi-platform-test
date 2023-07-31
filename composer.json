@@ -21,7 +21,7 @@
         "drupal/helfi_hauki": "^1.0",
         "drupal/helfi_navigation": "^2.0",
         "drupal/helfi_platform_config": "dev-UHF-8071-new-ibm-chat-app",
-        "drupal/helfi_proxy": "^3.0",
+        "drupal/helfi_proxy": "dev-PLATTA-4944-assets-azure",
         "drupal/helfi_tpr": "^2.1",
         "drupal/helfi_tunnistamo": "^2.2",
         "drush/drush": "^10.4 || ^11"
