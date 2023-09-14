@@ -1,3 +1,4 @@
+uuid: fcbe6824-fd53-40fc-991e-1ee7a897099d
 langcode: en
 status: true
 dependencies:
@@ -26,6 +27,11 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     weight: 0
+    region: content
+  list:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
     region: content
 hidden:
   search_api_excerpt: true

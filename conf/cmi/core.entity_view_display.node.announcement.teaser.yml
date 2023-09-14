@@ -1,3 +1,4 @@
+uuid: 8834941e-eb3a-472b-aa1b-8823a6e2e208
 langcode: en
 status: true
 dependencies:
@@ -38,4 +39,5 @@ hidden:
   field_announcement_type: true
   field_announcement_unit_pages: true
   langcode: true
+  published_at: true
   toc_enabled: true

@@ -2,13 +2,13 @@ uuid: 30445b65-920f-4be9-8006-7f59e67cdfb6
 langcode: en
 status: true
 dependencies:
-  enforced:
-    config:
-      - paragraphs.paragraphs_type.accordion_item
   config:
     - field.storage.paragraph.field_accordion_items
   module:
     - entity_reference_revisions
+  enforced:
+    config:
+      - paragraphs.paragraphs_type.accordion_item
 id: paragraph.accordion.field_accordion_items
 field_name: field_accordion_items
 entity_type: paragraph

@@ -1,3 +1,4 @@
+uuid: e00afbbb-7568-4b33-8b24-68a5ac76af51
 langcode: en
 status: true
 dependencies:
@@ -18,7 +19,5 @@ default_value:
   -
     value: 3
 default_value_callback: ''
-settings:
-  allowed_values: {  }
-  allowed_values_function: helfi_react_search_event_list_allowed_values_function
+settings: {  }
 field_type: list_integer

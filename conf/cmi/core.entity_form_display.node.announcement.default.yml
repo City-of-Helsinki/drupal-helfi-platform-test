@@ -1,3 +1,4 @@
+uuid: b6aa092d-38a9-428d-9c11-54c9682220c9
 langcode: en
 status: true
 dependencies:
@@ -121,9 +122,9 @@ content:
     third_party_settings: {  }
   simple_sitemap:
     weight: 10
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
   status:
     type: boolean_checkbox
     weight: 9
