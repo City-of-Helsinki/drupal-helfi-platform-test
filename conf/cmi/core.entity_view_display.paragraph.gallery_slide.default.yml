@@ -7,7 +7,7 @@ dependencies:
     - field.field.paragraph.gallery_slide.field_gallery_slide_media
     - paragraphs.paragraphs_type.gallery_slide
   module:
-    - helfi_content
+    - helfi_base_content
 _core:
   default_config_hash: lCNtV97a_4R-HmVPIV6QDL0SNFFIGLB1st2uM8edGEk
 id: paragraph.gallery_slide.default

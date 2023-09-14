@@ -2,8 +2,6 @@ uuid: 8f202536-ab7f-4abc-b4d7-9597ea341ebd
 langcode: en
 status: true
 dependencies: {  }
-_core:
-  default_config_hash: rpwvgyEURXLz_JjgMCrkS1rUv-0k3L79BpO-ReN7fDI
 id: node
 label: Content
 tags:
@@ -18,4 +16,3 @@ tags:
   og_url: '[current-page:url:absolute]'
   twitter_cards_image: '[node:shareable-image]'
   og_image: '[node:shareable-image]'
-  og_site_name: '[site:name]'

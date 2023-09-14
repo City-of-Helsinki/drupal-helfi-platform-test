@@ -2,8 +2,6 @@ uuid: 1a6494b3-0f66-4eac-ab34-32dc3772698b
 langcode: en
 status: true
 dependencies: {  }
-_core:
-  default_config_hash: iRDF_7D_e-iUbVWWgsri4VvkzcDlUxefZeFtsP0n3DA
 id: popular_services
 label: 'Popular services'
 icon_uuid: null

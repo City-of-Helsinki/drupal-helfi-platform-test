@@ -1,9 +1,8 @@
-_core:
-  default_config_hash: avLbUotYjwF8ufc-mo2Awowg5lkVztiWg26H7YNn7eE
 langcode: en
+path_to_json: /themes/contrib/hdbt/src/icons/editor-selectable-icons.json
 site_settings:
+  default_icon: abstract-1
   theme_color: coat-of-arms
-  default_icon: home-smoke
   koro: basic
 footer_settings:
   footer_color: dark

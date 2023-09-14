@@ -10,8 +10,6 @@ dependencies:
     - paragraphs.paragraphs_type.chart
   module:
     - text
-_core:
-  default_config_hash: PW4d3mI32Txzxw6-lJRypROkivZ5BfDWMjLnABgARqA
 id: paragraph.chart.default
 targetEntityType: paragraph
 bundle: chart
@@ -43,3 +41,4 @@ content:
     region: content
 hidden:
   field_iframe_title: true
+  search_api_excerpt: true

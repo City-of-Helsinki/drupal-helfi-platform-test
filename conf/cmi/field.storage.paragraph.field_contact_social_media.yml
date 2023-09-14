@@ -2,11 +2,12 @@ uuid: 84f0e5f4-4844-4374-b614-7e0beb6c4c33
 langcode: en
 status: true
 dependencies:
+  enforced:
+    config:
+      - paragraphs.paragraphs_type.contact_card
   module:
     - entity_reference_revisions
     - paragraphs
-_core:
-  default_config_hash: 1H9u881LSxLCHsrduHm-5yTBSUFBF29lwiH_IjbeJBk
 id: paragraph.field_contact_social_media
 field_name: field_contact_social_media
 entity_type: paragraph
