@@ -5,8 +5,9 @@ dependencies:
   module:
     - entity_reference_revisions
     - paragraphs
-_core:
-  default_config_hash: 7_jHhSIxYBahdFD5q_b-x1lLEUT423KPxt-TJGxD9p8
+  enforced:
+    config:
+      - paragraphs.paragraphs_type.target_group_links
 id: paragraph.field_target_group_item
 field_name: field_target_group_item
 entity_type: paragraph
