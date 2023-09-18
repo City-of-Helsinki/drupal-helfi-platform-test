@@ -22,6 +22,8 @@ dependencies:
     - paragraphs.paragraphs_type.text
   module:
     - entity_reference_revisions
+_core:
+  default_config_hash: 5KAll_IAdNMvi3T0zJ6plol1FqNqYaoRoNJ_zrpj4_k
 id: node.page.field_content
 field_name: field_content
 entity_type: node

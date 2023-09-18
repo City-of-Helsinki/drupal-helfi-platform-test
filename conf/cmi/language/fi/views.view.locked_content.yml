@@ -31,8 +31,6 @@ display:
         type:
           label: Sisältötyyppi
           separator: ', '
-        timestamp:
-          label: 'Lukituksen ajankohta'
         name:
           label: 'Lukituksen tekijä'
           separator: ', '
@@ -56,9 +54,6 @@ display:
           expose:
             label: Otsikko
       title: 'Lukitut sisällöt'
-      empty:
-        area_text_custom:
-          content: 'Lukittua sisältöä ei ole.'
   page_1:
     display_title: Sivu
     display_options:

@@ -1,9 +1,9 @@
-uuid: de07ef76-acad-45ed-a443-a7984dc88684
+uuid: b8dc217a-5ef1-4e37-bc76-6bdb05bd7d9d
 langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: zY_1slrvSjIWdILbI-0OWc8A1RRz0fRVj4Gtz4m6zS0
+  default_config_hash: XBOd0Lfy5FpXJkeuZi75vBaT7ffFCENINrui5kCVygo
 id: helfi_announcements
 label: 'Helfi: Announcements'
 label_plural: 'Helfi: Announcements'

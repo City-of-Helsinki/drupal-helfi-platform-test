@@ -22,6 +22,8 @@ dependencies:
     - paragraphs.paragraphs_type.target_group_links
   module:
     - entity_reference_revisions
+_core:
+  default_config_hash: NMDaoBJkCtTwLvelvbzhNf-bqshGCunTGiZmSV4eT6g
 id: node.landing_page.field_content
 field_name: field_content
 entity_type: node
