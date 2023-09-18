@@ -1,0 +1,22 @@
+uuid: 45bc08a3-7cd2-4567-a412-30a6fdba4887
+langcode: en
+status: true
+dependencies:
+  module:
+    - helfi_tpr
+    - taxonomy
+_core:
+  default_config_hash: xyvme0fCn-ECtK4qUuTW5X8aOK9GXLQYty8u03HRNMs
+id: tpr_unit.field_unit_type
+field_name: field_unit_type
+entity_type: tpr_unit
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

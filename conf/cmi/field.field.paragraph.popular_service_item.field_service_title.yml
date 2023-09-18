@@ -5,8 +5,6 @@ dependencies:
   config:
     - field.storage.paragraph.field_service_title
     - paragraphs.paragraphs_type.popular_service_item
-_core:
-  default_config_hash: P3oDeTL8S0HNkNVIf8f2Z0Ioa9gGFwfRuvJnMBrFplA
 id: paragraph.popular_service_item.field_service_title
 field_name: field_service_title
 entity_type: paragraph

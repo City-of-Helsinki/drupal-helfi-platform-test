@@ -14,11 +14,9 @@ dependencies:
     - node.type.page
   module:
     - entity_reference_revisions
-    - helfi_content
+    - helfi_platform_config
     - metatag
     - user
-_core:
-  default_config_hash: Ak9FQqRfsa6VZqgDqCS6aTUhciwdWBpCSKMVqgmkd2Q
 id: node.page.default
 targetEntityType: node
 bundle: page
@@ -85,3 +83,5 @@ hidden:
   field_hero: true
   field_liftup_image: true
   langcode: true
+  published_at: true
+  search_api_excerpt: true

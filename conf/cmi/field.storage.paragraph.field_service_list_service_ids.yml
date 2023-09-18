@@ -1,0 +1,22 @@
+uuid: 6c972d2c-a517-4902-99f5-7a4f027f27c1
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: W8FU8L5p00rESNWD5DbEI24AHZDyeiF7ry_S061SToo
+id: paragraph.field_service_list_service_ids
+field_name: field_service_list_service_ids
+entity_type: paragraph
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

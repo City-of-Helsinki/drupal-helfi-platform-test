@@ -1,0 +1,10 @@
+uuid: 501abbec-ef87-4e66-b70a-40c52a910a7c
+langcode: en
+status: true
+dependencies: {  }
+id: event_list
+label: Events
+icon_uuid: null
+icon_default: null
+description: 'Create a feed of events from LinkedEvents data'
+behavior_plugins: {  }
