@@ -6,6 +6,7 @@ dependencies:
     - eu_cookie_compliance
     - external_entities
     - helfi_api_base
+    - helfi_tpr
     - media
     - system
 _core:
@@ -20,3 +21,5 @@ permissions:
   - 'view helfi_announcements external entity'
   - 'view media'
   - 'view remote entities'
+  - 'view tpr_service'
+  - 'view tpr_unit'

@@ -4,8 +4,13 @@ status: true
 dependencies:
   config:
     - field.storage.paragraph.field_columns_right_column
+    - paragraphs.paragraphs_type.columns
+    - paragraphs.paragraphs_type.image
+    - paragraphs.paragraphs_type.text
   module:
     - entity_reference_revisions
+_core:
+  default_config_hash: jwPtQLPo8wWcMabnbNz-98N7x36gzjfbKw5utoTOf8A
 id: paragraph.columns.field_columns_right_column
 field_name: field_columns_right_column
 entity_type: paragraph
@@ -19,7 +24,15 @@ default_value_callback: ''
 settings:
   handler: 'default:paragraph'
   handler_settings:
-    target_bundles: {  }
+    target_bundles:
+      text: text
+      image: image
     negate: 0
-    target_bundles_drag_drop: {  }
+    target_bundles_drag_drop:
+      image:
+        weight: 0
+        enabled: true
+      text:
+        weight: 0
+        enabled: true
 field_type: entity_reference_revisions

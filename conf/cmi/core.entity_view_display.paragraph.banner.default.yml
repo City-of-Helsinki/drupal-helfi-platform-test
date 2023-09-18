@@ -11,9 +11,9 @@ dependencies:
     - field.field.paragraph.banner.field_icon
     - paragraphs.paragraphs_type.banner
   module:
+    - hdbt_admin_tools
     - link
     - options
-    - hdbt_admin_tools
     - text
 id: paragraph.banner.default
 targetEntityType: paragraph
