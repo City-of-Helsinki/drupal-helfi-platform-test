@@ -5352,16 +5352,16 @@
         },
         {
             "name": "drupal/helfi_platform_config",
-            "version": "dev-UHF-8071-new-ibm-chat-app",
+            "version": "dev-UHF-X_suunte-chat-test-configs",
             "source": {
                 "type": "git",
                 "url": "https://github.com/City-of-Helsinki/drupal-helfi-platform-config.git",
-                "reference": "954a7e8fbd76ce5ecab99b92c64a0f104d5d884a"
+                "reference": "8f6df7dd5ad0cf789cd931e8e289fd668046176f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/City-of-Helsinki/drupal-helfi-platform-config/zipball/954a7e8fbd76ce5ecab99b92c64a0f104d5d884a",
-                "reference": "954a7e8fbd76ce5ecab99b92c64a0f104d5d884a",
+                "url": "https://api.github.com/repos/City-of-Helsinki/drupal-helfi-platform-config/zipball/8f6df7dd5ad0cf789cd931e8e289fd668046176f",
+                "reference": "8f6df7dd5ad0cf789cd931e8e289fd668046176f",
                 "shasum": ""
             },
             "require": {
@@ -5472,10 +5472,10 @@
             ],
             "description": "HELfi platform config",
             "support": {
-                "source": "https://github.com/City-of-Helsinki/drupal-helfi-platform-config/tree/UHF-8071-new-ibm-chat-app",
+                "source": "https://github.com/City-of-Helsinki/drupal-helfi-platform-config/tree/UHF-X_suunte-chat-test-configs",
                 "issues": "https://github.com/City-of-Helsinki/drupal-helfi-platform-config/issues"
             },
-            "time": "2023-02-21T13:51:19+00:00"
+            "time": "2023-09-18T07:57:46+00:00"
         },
         {
             "name": "drupal/helfi_proxy",
