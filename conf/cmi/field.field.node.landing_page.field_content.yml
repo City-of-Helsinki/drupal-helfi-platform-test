@@ -19,7 +19,10 @@ dependencies:
     - paragraphs.paragraphs_type.phasing
     - paragraphs.paragraphs_type.popular_services
     - paragraphs.paragraphs_type.remote_video
+    - paragraphs.paragraphs_type.service_list
+    - paragraphs.paragraphs_type.service_list_search
     - paragraphs.paragraphs_type.target_group_links
+    - paragraphs.paragraphs_type.unit_search
   module:
     - entity_reference_revisions
 _core:
@@ -53,6 +56,9 @@ settings:
       popular_services: popular_services
       target_group_links: target_group_links
       hearings: hearings
+      unit_search: unit_search
+      service_list: service_list
+      service_list_search: service_list_search
     negate: 0
     target_bundles_drag_drop:
       banner:
@@ -97,7 +103,16 @@ settings:
       remote_video:
         weight: 0
         enabled: true
+      service_list:
+        weight: 0
+        enabled: true
+      service_list_search:
+        weight: 0
+        enabled: true
       target_group_links:
+        weight: 0
+        enabled: true
+      unit_search:
         weight: 0
         enabled: true
 field_type: entity_reference_revisions

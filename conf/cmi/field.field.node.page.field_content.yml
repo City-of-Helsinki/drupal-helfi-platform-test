@@ -19,7 +19,9 @@ dependencies:
     - paragraphs.paragraphs_type.map
     - paragraphs.paragraphs_type.phasing
     - paragraphs.paragraphs_type.remote_video
+    - paragraphs.paragraphs_type.service_list_search
     - paragraphs.paragraphs_type.text
+    - paragraphs.paragraphs_type.unit_search
   module:
     - entity_reference_revisions
 _core:
@@ -53,6 +55,8 @@ settings:
       chart: chart
       remote_video: remote_video
       map: map
+      unit_search: unit_search
+      service_list_search: service_list_search
     negate: 0
     target_bundles_drag_drop:
       accordion:
@@ -97,7 +101,13 @@ settings:
       remote_video:
         weight: 0
         enabled: true
+      service_list_search:
+        weight: 0
+        enabled: true
       text:
+        weight: 0
+        enabled: true
+      unit_search:
         weight: 0
         enabled: true
 field_type: entity_reference_revisions

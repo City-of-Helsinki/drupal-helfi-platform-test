@@ -1,11 +1,12 @@
-uuid: 59cbb8bf-6274-4724-acc2-29b20e0f8a9c
+uuid: 28a958f6-b480-4aa9-83a6-b9446ae59eaf
 langcode: en
 status: true
 dependencies:
   config:
+    - field.field.paragraph.content_liftup.field_content_liftup_unit
     - paragraphs.paragraphs_type.content_liftup
 _core:
-  default_config_hash: YJo-TIdvyPiJJX4wEnY5rLCoDcpAVZD4KftOr6BEyAI
+  default_config_hash: xULweJ9JMlJZPMLEKe6rT2QooMGsSyiqRMh9VCv95fM
 id: paragraph.content_liftup.default
 targetEntityType: paragraph
 bundle: content_liftup
@@ -13,7 +14,7 @@ mode: default
 content:
   field_content_liftup_unit:
     type: entity_reference_autocomplete
-    weight: 2
+    weight: 1
     region: content
     settings:
       match_operator: CONTAINS

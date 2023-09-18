@@ -21,6 +21,7 @@ dependencies:
     - file
     - filter
     - helfi_api_base
+    - helfi_tpr
     - locale
     - media
     - menu_link_attributes
@@ -52,6 +53,8 @@ permissions:
   - 'access site in maintenance mode'
   - 'access taxonomy overview'
   - 'access toolbar'
+  - 'access tpr_service overview'
+  - 'access tpr_unit overview'
   - 'access user profiles'
   - 'administer menu'
   - 'administer nodes'
@@ -117,6 +120,8 @@ permissions:
   - 'edit paragraph library item'
   - 'edit remote entities'
   - 'edit terms in keywords'
+  - 'revert all tpr_service revisions'
+  - 'revert all tpr_unit revisions'
   - 'revert announcement revisions'
   - 'revert landing_page revisions'
   - 'revert page revisions'
@@ -135,14 +140,24 @@ permissions:
   - 'translate menu_link_content'
   - 'translate page node'
   - 'translate remote_video media'
+  - 'translate tpr_errand_service'
+  - 'translate tpr_service'
+  - 'translate tpr_service_channel'
+  - 'translate tpr_unit'
   - 'update any media'
+  - 'update any tpr_service'
+  - 'update any tpr_unit'
   - 'update content translations'
   - 'update media'
+  - 'update own tpr_service'
+  - 'update own tpr_unit'
   - 'use menu link attributes'
   - 'use text format full_html'
   - 'use text format minimal'
   - 'view all media revisions'
   - 'view all revisions'
+  - 'view all tpr_service revisions'
+  - 'view all tpr_unit revisions'
   - 'view announcement revisions'
   - 'view any unpublished content'
   - 'view editoria11y checker'
@@ -153,3 +168,7 @@ permissions:
   - 'view scheduled content'
   - 'view the administration theme'
   - 'view unpublished paragraphs'
+  - 'view unpublished tpr_errand_service'
+  - 'view unpublished tpr_service'
+  - 'view unpublished tpr_service_channel'
+  - 'view unpublished tpr_unit'
