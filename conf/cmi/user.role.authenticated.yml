@@ -1,0 +1,29 @@
+uuid: 56ee4b58-8ea9-413d-ad8c-0d2716e8d3bb
+langcode: en
+status: true
+dependencies:
+  module:
+    - eu_cookie_compliance
+    - external_entities
+    - helfi_api_base
+    - helfi_tpr
+    - media
+    - paragraphs
+    - system
+    - toolbar
+_core:
+  default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access content'
+  - 'access toolbar'
+  - 'display eu cookie compliance popup'
+  - 'view helfi_announcements external entity'
+  - 'view media'
+  - 'view remote entities'
+  - 'view tpr_service'
+  - 'view tpr_unit'
+  - 'view unpublished paragraphs'

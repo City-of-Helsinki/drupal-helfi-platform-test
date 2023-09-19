@@ -1,0 +1,10 @@
+uuid: 00b66a65-1b48-456b-817b-4af4fb584cd9
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.list_of_links
+label: 'List of Links'
+targetEntityType: media
+cache: true

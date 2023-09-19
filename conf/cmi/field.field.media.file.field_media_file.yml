@@ -1,0 +1,27 @@
+uuid: 96995e08-0289-44be-b142-ec20d14cbccd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_file
+    - media.type.file
+  module:
+    - file
+id: media.file.field_media_file
+field_name: field_media_file
+entity_type: media
+bundle: file
+label: File
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: ''
+  file_extensions: 'txt doc docx pdf xls xlsx'
+  max_filesize: ''
+  description_field: false
+field_type: file

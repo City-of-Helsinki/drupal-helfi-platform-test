@@ -1,0 +1,38 @@
+uuid: 494e6a7a-8ba6-4f50-bdb9-00d6e23fe6f5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_columns_left_column
+    - paragraphs.paragraphs_type.columns
+    - paragraphs.paragraphs_type.image
+    - paragraphs.paragraphs_type.text
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: NLMGpf1VFdb-RxU3UFqmyu4hthGDUQBihq-HGvM9qj0
+id: paragraph.columns.field_columns_left_column
+field_name: field_columns_left_column
+entity_type: paragraph
+bundle: columns
+label: 'Left column'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      text: text
+      image: image
+    negate: 0
+    target_bundles_drag_drop:
+      image:
+        weight: 0
+        enabled: true
+      text:
+        weight: 0
+        enabled: true
+field_type: entity_reference_revisions

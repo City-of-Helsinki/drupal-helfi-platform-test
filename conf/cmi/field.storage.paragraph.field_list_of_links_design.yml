@@ -1,0 +1,27 @@
+uuid: b2f394dc-0c0f-46c4-8dcf-f8d393b3d66a
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_list_of_links_design
+field_name: field_list_of_links_design
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: with-image
+      label: 'With image'
+    -
+      value: without-image
+      label: 'Without image'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,15 @@
+uuid: 9a8ca5d0-4cf2-41e8-a606-1f6b027ec6e2
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_library
+third_party_settings:
+  paragraphs_library:
+    allow_library_conversion: true
+id: text
+label: Text
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

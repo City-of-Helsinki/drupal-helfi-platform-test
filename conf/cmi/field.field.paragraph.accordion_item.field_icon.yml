@@ -1,0 +1,21 @@
+uuid: 43bf6b26-0f27-461c-8699-d940ca0a3871
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_icon
+    - paragraphs.paragraphs_type.accordion_item
+  module:
+    - hdbt_admin_tools
+id: paragraph.accordion_item.field_icon
+field_name: field_icon
+entity_type: paragraph
+bundle: accordion_item
+label: Icon
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: select2_icon

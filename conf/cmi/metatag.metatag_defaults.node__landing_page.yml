@@ -1,0 +1,8 @@
+uuid: 2318eadf-eb4b-41ad-8a52-56c06609e645
+langcode: en
+status: true
+dependencies: {  }
+id: node__landing_page
+label: 'Content: Landing page'
+tags:
+  description: '[node:field_hero:entity:field_hero_desc]'

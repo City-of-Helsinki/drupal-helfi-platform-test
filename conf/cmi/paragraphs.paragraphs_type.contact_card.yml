@@ -1,0 +1,10 @@
+uuid: 37fd9133-0334-4df0-8f3e-e609c01358ed
+langcode: en
+status: true
+dependencies: {  }
+id: contact_card
+label: 'Contact card'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

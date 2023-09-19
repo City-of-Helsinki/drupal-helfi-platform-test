@@ -1,0 +1,19 @@
+uuid: 74e1d6f6-60aa-4185-bcb5-aae282dcc951
+langcode: en
+status: true
+dependencies:
+  module:
+    - hdbt_admin_tools
+    - paragraphs
+id: paragraph.field_icon
+field_name: field_icon
+entity_type: paragraph
+type: select2_icon
+settings: {  }
+module: hdbt_admin_tools
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

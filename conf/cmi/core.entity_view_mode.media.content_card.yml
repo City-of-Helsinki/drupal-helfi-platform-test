@@ -1,0 +1,10 @@
+uuid: 9eefad8c-a251-4b9c-bb95-469853589ac9
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.content_card
+label: 'Content card'
+targetEntityType: media
+cache: true
