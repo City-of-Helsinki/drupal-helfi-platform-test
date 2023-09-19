@@ -3,13 +3,13 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: XBOd0Lfy5FpXJkeuZi75vBaT7ffFCENINrui5kCVygo
+  default_config_hash: zY_1slrvSjIWdILbI-0OWc8A1RRz0fRVj4Gtz4m6zS0
 id: helfi_announcements
 label: 'Helfi: Announcements'
 label_plural: 'Helfi: Announcements'
 description: ''
-read_only: true
 generate_aliases: null
+read_only: true
 field_mapper_id: jsonpath
 field_mapper_config:
   field_mappings:
