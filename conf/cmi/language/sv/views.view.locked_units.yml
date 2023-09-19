@@ -3,15 +3,27 @@ display:
     display_title: Förvald
     display_options:
       fields:
+        tpr_unit_bulk_form:
+          label: 'Bulk update'
+          action_title: Action
         name:
+          label: Title
           separator: ', '
+        name_1:
+          label: 'Lock owner'
+          separator: ', '
+        langcode:
+          label: 'Content language'
+          separator: ', '
+        operations:
+          label: Funktioner
       pager:
         options:
           tags:
-            next: Nästa
-            previous: Föregående
-            first: Första
-            last: Sista
+            next: 'Next ›'
+            previous: '‹ Previous'
+            first: '« Första'
+            last: 'Sista »'
           expose:
             items_per_page_label: 'Inlägg per sida'
             items_per_page_options_all_label: '- Alla -'
@@ -23,9 +35,9 @@ display:
           exposed_sorts_label: 'Sortera efter'
           sort_asc_label: Stigande
           sort_desc_label: Fallande
-      arguments:
-        id:
-          exception:
-            title: Alla
-  service_units:
+      filters:
+        name:
+          expose:
+            label: Title
+  locked_units_block:
     display_title: Block

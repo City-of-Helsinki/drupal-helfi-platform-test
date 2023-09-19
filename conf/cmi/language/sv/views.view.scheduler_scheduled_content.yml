@@ -5,7 +5,7 @@ display:
     display_options:
       exposed_form:
         options:
-          submit_button: Filtrera
+          submit_button: Filter
           reset_button_label: Återställ
           exposed_sorts_label: 'Sortera efter'
           sort_asc_label: Stigande
@@ -19,9 +19,9 @@ display:
             last: 'sista »'
       fields:
         node_bulk_form:
-          action_title: Åtgärd
+          action_title: Action
         title:
-          label: Titel
+          label: Title
           separator: ', '
         type:
           label: Innehållstyp
@@ -46,7 +46,7 @@ display:
       filters:
         title:
           expose:
-            label: Titel
+            label: Title
         type:
           expose:
             label: Innehållstyp
