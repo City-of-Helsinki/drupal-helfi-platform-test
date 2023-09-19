@@ -83,8 +83,8 @@ content:
     third_party_settings: {  }
   contacts:
     type: readonly_field_widget
-    region: content
     weight: 36
+    region: content
     settings:
       label: above
       formatter_type: null
@@ -175,8 +175,8 @@ content:
     third_party_settings: {  }
   highlights:
     type: readonly_field_widget
-    region: content
     weight: 33
+    region: content
     settings:
       label: above
       formatter_type: null
@@ -202,8 +202,8 @@ content:
     third_party_settings: {  }
   links:
     type: readonly_field_widget
-    region: content
     weight: 31
+    region: content
     settings:
       label: above
       formatter_type: null
@@ -240,8 +240,8 @@ content:
     third_party_settings: {  }
   opening_hours:
     type: readonly_field_widget
-    region: content
     weight: 32
+    region: content
     settings:
       label: above
       formatter_type: null
@@ -250,8 +250,8 @@ content:
     third_party_settings: {  }
   other_info:
     type: readonly_field_widget
-    region: content
     weight: 34
+    region: content
     settings:
       label: above
       formatter_type: null
@@ -293,8 +293,8 @@ content:
     third_party_settings: {  }
   price_info:
     type: readonly_field_widget
-    region: content
     weight: 35
+    region: content
     settings:
       label: above
       formatter_type: null

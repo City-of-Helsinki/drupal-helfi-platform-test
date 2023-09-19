@@ -7,8 +7,8 @@ display:
       pager:
         options:
           tags:
-            next: ››
-            previous: ‹‹
+            next: 'Seuraava ›'
+            previous: '‹ Edellinen'
           expose:
             items_per_page_label: 'Merkintöjä sivua kohti'
             items_per_page_options_all_label: '- Kaikki -'
@@ -23,7 +23,7 @@ display:
       arguments:
         tid:
           exception:
-            title: Kaikki
+            title: All
   feed_1:
     display_title: Syöte
   page_1:
