@@ -1,0 +1,4 @@
+telia_chat_websdk:
+  version: 1.0
+  js:
+    'https://wds.ace.teliacompany.com/wds/instances/J5XKjqJt/ACEWebSDK.min.js': { type: external }
