@@ -42,6 +42,7 @@ module:
   helfi_azure_fs: 0
   helfi_base_content: 0
   helfi_ckeditor: 0
+  helfi_demo: 0
   helfi_eu_cookie_compliance: 0
   helfi_global_announcement: 0
   helfi_image_styles: 0

@@ -1,0 +1,29 @@
+uuid: 7575da5b-0e00-4850-bc4e-d5418ae12a3d
+langcode: en
+status: true
+dependencies:
+  module:
+    - helfi_platform_config
+    - system
+  theme:
+    - hdbt
+id: ibmchatapp_telia
+theme: hdbt
+region: attachments
+weight: 0
+provider: null
+plugin: ibm_chat_app
+settings:
+  id: ibm_chat_app
+  label: 'IBM Chat App (Telia)'
+  label_display: '0'
+  provider: helfi_platform_config
+  hostname: 'https://coh-chat-app-test.mo1wrhhyog0.eu-de.codeengine.appdomain.cloud'
+  engagementId: helsinki-info-chat
+  tenantId: www-hel-fi-test
+  assistantId: helsinki-info-chat
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /new-chatbot-test-telia
