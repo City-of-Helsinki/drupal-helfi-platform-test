@@ -1,0 +1,34 @@
+uuid: ad205944-3ad7-4372-bfe4-c39f48546c2e
+langcode: en
+status: true
+dependencies:
+  module:
+    - helfi_demo
+    - node
+    - system
+  theme:
+    - hdbt
+id: teliachatblock
+theme: hdbt
+region: footer_bottom
+weight: 0
+provider: null
+plugin: telia_chat_block
+settings:
+  id: telia_chat_block
+  label: 'Telia Chat Block'
+  label_display: '0'
+  provider: helfi_demo
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: "/new-chatbot-test\r\n/new-chatbot-test-telia"
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      landing_page: landing_page
+      page: page
