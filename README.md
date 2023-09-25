@@ -46,3 +46,7 @@ $ make shell
 ## Documentation
 
 See [documentatation](https://github.com/City-of-Helsinki/drupal-helfi-platform/tree/main/documentation).
+
+## Contact
+
+Slack: #helfi-drupal (http://helsinkicity.slack.com/)
