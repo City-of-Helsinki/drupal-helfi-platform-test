@@ -22,8 +22,8 @@ display:
             offset_label: Kompensera
       fields:
         tpr_service_bulk_form:
-          label: 'Bulk update'
-          action_title: Action
+          label: Massuppdatera
+          action_title: Åtgärd
         id:
           label: ID
           separator: ', '
