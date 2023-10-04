@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies:
   module:
-    - hdbt_admin_tools
+    - helfi_platform_config
     - node
   theme:
     - hdbt
@@ -12,7 +12,7 @@ _core:
 id: heroblock
 theme: hdbt
 region: before_content
-weight: -11
+weight: -8
 provider: null
 plugin: hero_block
 settings:
