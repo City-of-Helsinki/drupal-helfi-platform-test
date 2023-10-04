@@ -1,0 +1,30 @@
+uuid: bd9937a7-066b-42df-9efe-18dab2ebaf69
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: U7yZGEsFvk5UxcRUripTm4JXrM9_gU_UV1aMQ8986a4
+id: helfi_news_groups
+label: 'Helfi: News groups'
+label_plural: 'Helfi: News groups'
+description: 'Retrieves news groups taxonomy terms from Helfi'
+generate_aliases: null
+read_only: true
+field_mapper_id: jsonpath
+field_mapper_config:
+  field_mappings:
+    id:
+      value: $.id
+    uuid:
+      value: $.id
+    title:
+      value: '$.attributes["name"]'
+    field_frontpage_term_id:
+      value: '$.attributes["drupal_internal__tid"]'
+storage_client_id: helfi_news_groups
+storage_client_config: {  }
+persistent_cache_max_age: 86400
+annotation_entity_type_id: null
+annotation_bundle_id: null
+annotation_field_name: null
+inherits_annotation_fields: false
