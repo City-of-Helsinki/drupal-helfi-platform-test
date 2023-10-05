@@ -7,7 +7,7 @@ display:
       title: Media
       fields:
         media_bulk_form:
-          action_title: Action
+          action_title: Åtgärd
         thumbnail__target_id:
           label: Miniatyr
           separator: ', '
@@ -34,8 +34,8 @@ display:
       pager:
         options:
           tags:
-            next: 'Next ›'
-            previous: '‹ Previous'
+            next: 'Nästa ›'
+            previous: '‹ Föregående'
             first: '« Första'
             last: 'Sista »'
           expose:
@@ -44,7 +44,7 @@ display:
             offset_label: Kompensera
       exposed_form:
         options:
-          submit_button: Filter
+          submit_button: Filtrera
           reset_button_label: Återställ
           exposed_sorts_label: 'Sortera efter'
           sort_asc_label: Stigande
