@@ -14,6 +14,7 @@ dependencies:
     - paragraphs.paragraphs_type.image
     - paragraphs.paragraphs_type.liftup_with_image
     - paragraphs.paragraphs_type.list_of_links
+    - paragraphs.paragraphs_type.news_list
     - paragraphs.paragraphs_type.remote_video
   module:
     - entity_reference_revisions
@@ -42,6 +43,7 @@ settings:
       banner: banner
       liftup_with_image: liftup_with_image
       from_library: from_library
+      news_list: news_list
       contact_card_listing: contact_card_listing
       remote_video: remote_video
       event_list: event_list
@@ -75,6 +77,9 @@ settings:
         weight: 0
         enabled: true
       list_of_links:
+        weight: 0
+        enabled: true
+      news_list:
         weight: 0
         enabled: true
       remote_video:

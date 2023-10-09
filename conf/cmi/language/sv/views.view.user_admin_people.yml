@@ -7,7 +7,7 @@ display:
       title: Personer
       fields:
         user_bulk_form:
-          label: 'Bulk update'
+          label: Massuppdatera
         name:
           label: Användarnamn
         status:
@@ -34,8 +34,8 @@ display:
       pager:
         options:
           tags:
-            next: 'Next ›'
-            previous: '‹ Previous'
+            next: 'Nästa ›'
+            previous: '‹ Föregående'
             first: '« Första'
             last: 'Sista »'
           expose:
@@ -44,7 +44,7 @@ display:
             offset_label: Kompensera
       exposed_form:
         options:
-          submit_button: Filter
+          submit_button: Filtrera
           reset_button_label: Återställ
           exposed_sorts_label: 'Sortera efter'
           sort_asc_label: Stigande

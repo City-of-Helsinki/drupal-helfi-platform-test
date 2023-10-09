@@ -1,3 +1,4 @@
+label: Toimipistehaku
 display:
   default:
     display_options:
@@ -39,4 +40,3 @@ display:
     display_title: Lohko
   entity_reference:
     display_title: Entiteettiviittaus
-label: Toimipistehaku

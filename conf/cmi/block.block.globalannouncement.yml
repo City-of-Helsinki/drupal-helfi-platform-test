@@ -9,7 +9,7 @@ dependencies:
 id: globalannouncement
 theme: hdbt
 region: before_content
-weight: -14
+weight: -10
 provider: helfi_global_announcement
 plugin: global_announcements
 settings:
