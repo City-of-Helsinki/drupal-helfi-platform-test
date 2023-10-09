@@ -8,8 +8,8 @@ display:
           submit_button: Käytä
           reset_button_label: Palauta
           exposed_sorts_label: Lajittele
-          sort_asc_label: Asc
-          sort_desc_label: Desc
+          sort_asc_label: Nousevasti
+          sort_desc_label: Laskevasti
       pager:
         options:
           tags:
@@ -24,15 +24,13 @@ display:
       fields:
         node_bulk_form:
           label: 'Solmujen bulkkitoimintojen lomake'
-          action_title: Action
+          action_title: Toiminto
         title:
           label: Otsikko
           separator: ', '
         type:
           label: Sisältötyyppi
           separator: ', '
-        timestamp:
-          label: 'Lukituksen ajankohta'
         name:
           label: 'Lukituksen tekijä'
           separator: ', '
@@ -56,9 +54,6 @@ display:
           expose:
             label: Otsikko
       title: 'Lukitut sisällöt'
-      empty:
-        area_text_custom:
-          content: 'Lukittuja toimipisteitä ei ole.'
   page_1:
     display_title: Sivu
     display_options:

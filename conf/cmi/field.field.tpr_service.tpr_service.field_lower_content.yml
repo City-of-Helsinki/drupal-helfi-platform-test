@@ -50,13 +50,13 @@ settings:
       liftup_with_image: liftup_with_image
       from_library: from_library
       remote_video: remote_video
+      news_list: news_list
       event_list: event_list
       phasing: phasing
       contact_card_listing: contact_card_listing
       map: map
       unit_accessibility_information: unit_accessibility_information
       unit_contact_card: unit_contact_card
-      news_list: news_list
     negate: 0
     target_bundles_drag_drop:
       accordion:

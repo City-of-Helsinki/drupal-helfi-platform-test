@@ -43,10 +43,10 @@ settings:
       banner: banner
       liftup_with_image: liftup_with_image
       from_library: from_library
+      news_list: news_list
       contact_card_listing: contact_card_listing
       remote_video: remote_video
       event_list: event_list
-      news_list: news_list
     negate: 0
     target_bundles_drag_drop:
       accordion:
