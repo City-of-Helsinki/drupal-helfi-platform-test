@@ -1,6 +1,0 @@
-services:
-  helfi_platform_test.helfi_test_content_subscriber:
-    class: Drupal\helfi_platform_test\EventSubscriber\HelfiTestContentSubscriber
-    arguments: ['@module_handler', '@module_installer']
-    tags:
-      - { name: event_subscriber }

@@ -4,24 +4,24 @@ display:
     display_options:
       fields:
         tpr_unit_bulk_form:
-          label: 'Bulk update'
-          action_title: Action
+          label: Massuppdatera
+          action_title: Åtgärd
         name:
-          label: Title
+          label: Titel
           separator: ', '
         name_1:
-          label: 'Lock owner'
+          label: 'Lås ägare'
           separator: ', '
         langcode:
-          label: 'Content language'
+          label: 'Språk för innehåll'
           separator: ', '
         operations:
           label: Funktioner
       pager:
         options:
           tags:
-            next: 'Next ›'
-            previous: '‹ Previous'
+            next: 'Nästa ›'
+            previous: '‹ Föregående'
             first: '« Första'
             last: 'Sista »'
           expose:
@@ -38,6 +38,6 @@ display:
       filters:
         name:
           expose:
-            label: Title
+            label: Titel
   locked_units_block:
     display_title: Block

@@ -23,15 +23,15 @@ display:
             offset_label: Kompensera
       fields:
         node_bulk_form:
-          action_title: Action
+          action_title: Åtgärd
         title:
-          label: Title
+          label: Titel
           separator: ', '
         type:
           label: Innehållstyp
           separator: ', '
         name:
-          label: 'Lock owner'
+          label: 'Lås ägare'
           separator: ', '
         operations:
           label: Funktioner
@@ -51,7 +51,7 @@ display:
             label: Innehållstyp
         title:
           expose:
-            label: Title
+            label: Titel
       title: 'Låst innehåll'
   page_1:
     display_title: Sida
