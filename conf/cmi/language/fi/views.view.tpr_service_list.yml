@@ -1,4 +1,3 @@
-label: 'TPR Palvelut'
 display:
   default:
     display_title: Oletus
@@ -52,13 +51,8 @@ display:
         langcode:
           expose:
             label: Kieli
-      title: 'TPR Palvelut'
       header:
         result:
           content: 'Näytetään @start - @end / @total'
-      empty:
-        area:
-          content:
-            value: 'Ei tuloksia.'
   page_1:
     display_title: Sivu

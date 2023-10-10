@@ -1,1 +1,3 @@
-label: 'Näytä linkki toimipistesivulle'
+settings:
+  on_label: Käytössä
+  off_label: 'Pois päältä'
