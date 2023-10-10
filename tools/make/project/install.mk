@@ -1,5 +1,5 @@
 ifeq ($(DRUPAL_CONF_EXISTS),yes)
-	DRUPAL_NEW_TARGETS := up build drush-si drush-cr drush-locale-update drush-uli
+	DRUPAL_NEW_TARGETS := up build drush-si drush-cr drush-locale-update drush-cim drush-uli
 else
 	DRUPAL_NEW_TARGETS := up build drush-si helfi-drush-enable-modules drush-locale-update drush-uli
 endif
