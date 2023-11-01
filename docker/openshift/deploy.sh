@@ -18,13 +18,15 @@ if [ ! -n "$OPENSHIFT_BUILD_NAME" ]; then
   exit 1
 fi
 
-  # Put site in maintenance mode
-  drush state:set system.maintenance_mode 1 --input-format=integer
+printenv
 
-  if [ $? -ne 0 ]; then
-    output_error_message "Deployment failed: Failed to enable maintenance_mode"
-    exit 1
-  fi
+# Put site in maintenance mode
+drush state:set system.maintenance_mode 1 --input-format=integer
+
+if [ $? -ne 0 ]; then
+  output_error_message "Deployment failed: Failed to enable maintenance_mode"
+  exit 1
+fi
 
 drush helfi:pre-deploy || true
 # Run maintenance tasks (config import, database updates etc)
