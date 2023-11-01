@@ -9,6 +9,9 @@ RUN composer install --no-progress --profile --prefer-dist --no-interaction --no
 COPY docker/openshift/entrypoints/ /entrypoints
 RUN chmod +x /entrypoints/*
 
+# Copy deploy script
+COPY docker/openshift/deploy.sh /
+RUN chmod +x /deploy.sh
 
 # Copy cron scripts
 RUN mkdir /crons
