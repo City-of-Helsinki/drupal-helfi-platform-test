@@ -1,4 +1,11 @@
 #!/bin/sh
+cd /var/www/html/public
+
+function output_error_message {
+  echo ${1}
+  php ../docker/openshift/notify.php "${1}" || true
+}
+
 #
 # Make sure we have active Drupal configuration.
 if [ ! -f "../conf/cmi/system.site.yml" ]; then
