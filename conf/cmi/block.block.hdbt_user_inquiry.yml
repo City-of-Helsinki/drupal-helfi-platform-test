@@ -6,8 +6,8 @@ dependencies:
     - helfi_platform_config
   theme:
     - hdbt
-id: hdbt_subtheme_user_inquiry
-theme: hdbt_subtheme
+id: hdbt_user_inquiry
+theme: hdbt
 region: attachments
 weight: 0
 provider: null
@@ -18,9 +18,9 @@ settings:
   label_display: visible
   provider: helfi_platform_config
   chat_title: Käyttäjätutkimus
-  chat_selection: user_inquiry_2
+  chat_selection: user_inquiry
 visibility:
   request_path:
     id: request_path
     negate: false
-    pages: /node/66
+    pages: /node/65
