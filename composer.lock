@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "11cf4076e72216235ca6c8a16813638c",
+    "content-hash": "9a498d620e01b3883dff8f0a00d70c44",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -4478,16 +4478,16 @@
         },
         {
             "name": "drupal/helfi_platform_config",
-            "version": "3.4.39",
+            "version": "dev-UHF-9033_v3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/City-of-Helsinki/drupal-helfi-platform-config.git",
-                "reference": "a53a1a65d1cd275f40a28c65c66d1651baab3ba5"
+                "reference": "7c78ccfacace22779406217a058cd5fc757d2f15"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/City-of-Helsinki/drupal-helfi-platform-config/zipball/a53a1a65d1cd275f40a28c65c66d1651baab3ba5",
-                "reference": "a53a1a65d1cd275f40a28c65c66d1651baab3ba5",
+                "url": "https://api.github.com/repos/City-of-Helsinki/drupal-helfi-platform-config/zipball/7c78ccfacace22779406217a058cd5fc757d2f15",
+                "reference": "7c78ccfacace22779406217a058cd5fc757d2f15",
                 "shasum": ""
             },
             "require": {
@@ -4593,10 +4593,10 @@
             ],
             "description": "HELfi platform config",
             "support": {
-                "source": "https://github.com/City-of-Helsinki/drupal-helfi-platform-config/tree/3.4.39",
+                "source": "https://github.com/City-of-Helsinki/drupal-helfi-platform-config/tree/UHF-9033_v3",
                 "issues": "https://github.com/City-of-Helsinki/drupal-helfi-platform-config/issues"
             },
-            "time": "2023-11-21T11:44:17+00:00"
+            "time": "2023-11-24T06:39:39+00:00"
         },
         {
             "name": "drupal/helfi_proxy",
@@ -16969,7 +16969,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "drupal/helfi_drupal_tools": 20
+        "drupal/helfi_drupal_tools": 20,
+        "drupal/helfi_platform_config": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
