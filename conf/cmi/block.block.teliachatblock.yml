@@ -22,8 +22,8 @@ settings:
 visibility:
   request_path:
     id: request_path
-    negate: true
-    pages: "/new-chatbot-test\r\n/new-chatbot-test-telia\r\n/new-chatbot-test-hester"
+    negate: false
+    pages: /chat
   'entity_bundle:node':
     id: 'entity_bundle:node'
     negate: false
