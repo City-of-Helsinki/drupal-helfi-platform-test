@@ -1,0 +1,27 @@
+uuid: 99f09011-5fa5-4b27-9181-9586ddf8711b
+langcode: en
+status: true
+dependencies:
+  module:
+    - helfi_platform_config
+    - system
+  theme:
+    - hdbt
+id: teliaacewidget
+theme: hdbt
+region: footer_bottom
+weight: 0
+provider: null
+plugin: telia_ace_widget
+settings:
+  id: telia_ace_widget
+  label: 'Telia ACE Widget'
+  label_display: '0'
+  provider: helfi_platform_config
+  chat_id: //acewebsdk/local-chat-info-eng
+  script_url: /wds/instances/J5XKjqJt/ACEWebSDK.min.js
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /new-telia-ace-widget
