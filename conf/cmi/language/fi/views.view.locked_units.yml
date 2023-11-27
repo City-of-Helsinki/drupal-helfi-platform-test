@@ -4,37 +4,47 @@ display:
     display_title: Oletus
     display_options:
       title: 'Lukitut toimipisteet'
-      pager:
-        options:
-          tags: {  }
-          expose: {  }
-      exposed_form:
-        options:
-          submit_button: Käytä
-          reset_button_label: Palauta
-          exposed_sorts_label: Järjestä
-          sort_asc_label: Nouseva
-          sort_desc_label: Laskeva
-      filters:
-        name:
-          expose:
-            label: Otsikko
       fields:
         tpr_unit_bulk_form:
-          label: Bulkkipäivitys
-          action_title: Toiminto
+          label: 'Bulk update'
+          action_title: Action
         name:
           label: Otsikko
+          separator: ', '
         name_1:
           label: 'Lukituksen tekijä'
+          separator: ', '
         timestamp:
           label: 'Lukituksen ajankohta'
         langcode:
           label: 'Sisällön kieli'
+          separator: ', '
         operations:
-          label: Toiminnot
+          label: Toimenpiteet
+      pager:
+        options:
+          tags:
+            next: 'Next ›'
+            previous: '‹ Previous'
+            first: '« Ensimmäinen'
+            last: 'Viimeinen »'
+          expose:
+            items_per_page_label: 'Merkintöjä sivua kohti'
+            items_per_page_options_all_label: '- Kaikki -'
+            offset_label: Offset
+      exposed_form:
+        options:
+          submit_button: Käytä
+          reset_button_label: Palauta
+          exposed_sorts_label: 'Sort by'
+          sort_asc_label: Asc
+          sort_desc_label: Desc
       empty:
         area_text_custom:
           content: 'Lukittuja toimipisteitä ei ole.'
+      filters:
+        name:
+          expose:
+            label: Otsikko
   locked_units_block:
     display_title: Lohko

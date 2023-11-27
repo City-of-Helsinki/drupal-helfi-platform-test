@@ -4,8 +4,8 @@ display:
     display_options:
       fields:
         tpr_service_bulk_form:
-          label: Massuppdatera
-          action_title: Åtgärd
+          label: 'Bulk update'
+          action_title: Action
         name:
           label: Titel
           separator: ', '

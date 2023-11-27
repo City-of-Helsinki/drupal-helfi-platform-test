@@ -7,7 +7,7 @@ display:
       title: Media
       fields:
         media_bulk_form:
-          action_title: Åtgärd
+          action_title: Action
         thumbnail__target_id:
           label: Miniatyr
           separator: ', '

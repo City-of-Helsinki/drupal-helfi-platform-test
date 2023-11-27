@@ -235,3 +235,5 @@ hidden:
   price_info: true
   show_www: true
   streetview_entrance_url: true
+  toc_enabled: true
+  topical: true

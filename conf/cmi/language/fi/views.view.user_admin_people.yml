@@ -7,7 +7,7 @@ display:
       title: Käyttäjät
       fields:
         user_bulk_form:
-          label: Massapäivitys
+          label: 'Bulk update'
         name:
           label: Käyttäjätunnus
         status:
@@ -30,8 +30,8 @@ display:
       pager:
         options:
           tags:
-            next: 'Seuraava ›'
-            previous: '‹ Edellinen'
+            next: 'Next ›'
+            previous: '‹ Previous'
             first: '« Ensimmäinen'
             last: 'Viimeinen »'
           expose:
@@ -40,11 +40,11 @@ display:
             offset_label: Offset
       exposed_form:
         options:
-          submit_button: Suodata
+          submit_button: Käytä
           reset_button_label: Palauta
-          exposed_sorts_label: Lajittele
-          sort_asc_label: Nousevasti
-          sort_desc_label: Laskevasti
+          exposed_sorts_label: 'Sort by'
+          sort_asc_label: Asc
+          sort_desc_label: Desc
       empty:
         area_text_custom:
           content: 'Ei saatavilla olevia ihmisiä.'
