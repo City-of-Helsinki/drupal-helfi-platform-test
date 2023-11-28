@@ -9,8 +9,8 @@ dependencies:
     - hdbt
 id: teliaacewidget
 theme: hdbt
-region: footer_bottom
-weight: 0
+region: attachments
+weight: -13
 provider: null
 plugin: telia_ace_widget
 settings:
@@ -18,7 +18,7 @@ settings:
   label: 'Telia ACE Widget'
   label_display: '0'
   provider: helfi_platform_config
-  chat_id: //acewebsdk/local-chat-info-eng
+  chat_id: //acewebsdk/local-chat-info-fin
   script_url: /wds/instances/J5XKjqJt/ACEWebSDK.min.js
 visibility:
   request_path:
