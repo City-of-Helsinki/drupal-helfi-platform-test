@@ -27,7 +27,7 @@ dependencies:
   module:
     - entity_reference_revisions
 _core:
-  default_config_hash: m3xEEqrJpbhjtfAE6LgZJaEi6RDOUbOFcGLGzfvY1mQ
+  default_config_hash: AejXN443GE3b159k_6fsqDyZ_BHs68SU9wBMY24Ueog
 id: node.page.field_lower_content
 field_name: field_lower_content
 entity_type: node
@@ -42,6 +42,7 @@ settings:
   handler: 'default:paragraph'
   handler_settings:
     target_bundles:
+      calculator: calculator
       text: text
       columns: columns
       image: image
@@ -52,6 +53,7 @@ settings:
       content_liftup: content_liftup
       banner: banner
       event_list: event_list
+      news_list: news_list
       from_library: from_library
       chart: chart
       phasing: phasing
@@ -59,8 +61,6 @@ settings:
       map: map
       unit_search: unit_search
       service_list_search: service_list_search
-      news_list: news_list
-      calculator: calculator
     negate: 0
     target_bundles_drag_drop:
       accordion:
