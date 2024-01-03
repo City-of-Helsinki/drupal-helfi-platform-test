@@ -1,0 +1,27 @@
+uuid: f272c65b-9bd6-45bd-a5fd-90532f1d1905
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_max_depth
+    - paragraphs.paragraphs_type.sote_section
+_core:
+  default_config_hash: RWZnmoIJv4rB3-fAbHy1N6OuZubdqDvtB0zef71LmMQ
+id: paragraph.sote_section.field_max_depth
+field_name: field_max_depth
+entity_type: paragraph
+bundle: sote_section
+label: 'Max Depth'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 3
+default_value_callback: ''
+settings:
+  min: 1
+  max: 999
+  prefix: ''
+  suffix: ''
+field_type: integer
