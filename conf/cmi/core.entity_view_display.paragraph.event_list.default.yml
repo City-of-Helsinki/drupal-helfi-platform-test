@@ -15,6 +15,8 @@ dependencies:
   module:
     - options
     - text
+_core:
+  default_config_hash: dMZ_8jKpOaA7CkuxlB2baa1apQcQ_vFlXM04jq4bqQY
 id: paragraph.event_list.default
 targetEntityType: paragraph
 bundle: event_list

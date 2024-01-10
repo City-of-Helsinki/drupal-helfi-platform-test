@@ -1,12 +1,17 @@
 ifeq ($(DRUPAL_CONF_EXISTS),yes)
-	DRUPAL_NEW_TARGETS := up build drush-si drush-cr drush-locale-update drush-cim drush-uli
+	DRUPAL_NEW_TARGETS := up build drush-si drush-cr drush-locale-update drush-uli
 else
 	DRUPAL_NEW_TARGETS := up build drush-si helfi-drush-enable-modules drush-locale-update drush-uli
 endif
 DRUPAL_POST_INSTALL_TARGETS := drush-deploy drush-locale-update drush-uli
 
 OC_LOGIN_TOKEN ?= $(shell bash -c 'read -s -p "You must obtain an API token by visiting https://oauth-openshift.apps.arodevtest.hel.fi/oauth/token/request (Token):" token; echo $$token')
+
+SYNC_TARGETS := drush-sync-db
+
+ifneq ($(DUMP_SQL_EXISTS),yes)
 SYNC_TARGETS := oc-login oc-sync
+endif
 
 PHONY += oc-login
 oc-login:
