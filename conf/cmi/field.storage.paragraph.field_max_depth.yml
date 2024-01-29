@@ -1,0 +1,22 @@
+uuid: 4b102fca-f510-4edb-a4b2-0a05e47c3e9f
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: agjqtebMZjQE3PHz2CVNqyLVXT8vIEwk_91lcyO1XsI
+id: paragraph.field_max_depth
+field_name: field_max_depth
+entity_type: paragraph
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

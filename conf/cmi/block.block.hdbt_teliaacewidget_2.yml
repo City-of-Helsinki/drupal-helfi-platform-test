@@ -1,0 +1,27 @@
+uuid: 279892af-97de-4581-927e-0b7c81388ccd
+langcode: en
+status: true
+dependencies:
+  module:
+    - helfi_platform_config
+    - system
+  theme:
+    - hdbt
+id: hdbt_teliaacewidget_2
+theme: hdbt
+region: attachments
+weight: -8
+provider: null
+plugin: telia_ace_widget
+settings:
+  id: telia_ace_widget
+  label: 'Telia ACE Widget (Knowledge, ACEWebSDK.js)'
+  label_display: '0'
+  provider: helfi_platform_config
+  chat_id: helsinki-testichat_en
+  script_url: /wds/instances/J5XKjqJt/ACEWebSDK.min.js
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /telia-ace-knowledge-chat

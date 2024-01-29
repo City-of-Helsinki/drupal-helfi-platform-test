@@ -1,0 +1,27 @@
+uuid: 05603ce6-3968-46b7-940a-af4fee8c8fb4
+langcode: en
+status: true
+dependencies:
+  module:
+    - helfi_platform_config
+    - system
+  theme:
+    - hdbt
+id: hdbt_teliaacewidget_3
+theme: hdbt
+region: attachments
+weight: -7
+provider: null
+plugin: telia_ace_widget
+settings:
+  id: telia_ace_widget
+  label: 'Telia ACE Widget (Digituki)'
+  label_display: '0'
+  provider: helfi_platform_config
+  chat_id: digituki_chat_en
+  script_url: /wds/instances/J5XKjqJt/ACEWebSDK.min.js
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /digituki-telia-ace
