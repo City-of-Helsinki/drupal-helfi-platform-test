@@ -16,6 +16,7 @@ dependencies:
     - paragraphs.paragraphs_type.liftup_with_image
     - paragraphs.paragraphs_type.list_of_links
     - paragraphs.paragraphs_type.map
+    - paragraphs.paragraphs_type.news_list
     - paragraphs.paragraphs_type.phasing
     - paragraphs.paragraphs_type.popular_services
     - paragraphs.paragraphs_type.remote_video
@@ -26,7 +27,7 @@ dependencies:
   module:
     - entity_reference_revisions
 _core:
-  default_config_hash: NMDaoBJkCtTwLvelvbzhNf-bqshGCunTGiZmSV4eT6g
+  default_config_hash: zEXoDFJnyArUOiL2ZrtDuq4YDWKyn6ung9JndPk_Ntg
 id: node.landing_page.field_content
 field_name: field_content
 entity_type: node
@@ -51,6 +52,7 @@ settings:
       chart: chart
       remote_video: remote_video
       map: map
+      news_list: news_list
       event_list: event_list
       phasing: phasing
       popular_services: popular_services
@@ -62,57 +64,60 @@ settings:
     negate: 0
     target_bundles_drag_drop:
       banner:
-        weight: 0
+        weight: 2
         enabled: true
       chart:
-        weight: 0
+        weight: 10
         enabled: true
       columns:
-        weight: 0
+        weight: 6
         enabled: true
       content_cards:
-        weight: 0
+        weight: 1
         enabled: true
       content_liftup:
-        weight: 0
+        weight: 11
         enabled: true
       event_list:
-        weight: 0
+        weight: 13
         enabled: true
       from_library:
-        weight: 0
+        weight: 5
         enabled: true
       hearings:
-        weight: 0
+        weight: 14
         enabled: true
       liftup_with_image:
-        weight: 0
+        weight: 3
         enabled: true
       list_of_links:
         weight: 0
         enabled: true
       map:
-        weight: 0
+        weight: 8
+        enabled: true
+      news_list:
+        weight: 14
         enabled: true
       phasing:
-        weight: 0
+        weight: 7
         enabled: true
       popular_services:
-        weight: 0
+        weight: 4
         enabled: true
       remote_video:
-        weight: 0
+        weight: 9
         enabled: true
       service_list:
-        weight: 0
+        weight: 15
         enabled: true
       service_list_search:
-        weight: 0
+        weight: 16
         enabled: true
       target_group_links:
-        weight: 0
+        weight: 12
         enabled: true
       unit_search:
-        weight: 0
+        weight: 17
         enabled: true
 field_type: entity_reference_revisions

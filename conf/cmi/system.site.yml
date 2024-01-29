@@ -2,7 +2,7 @@ _core:
   default_config_hash: l58O_yEXSo-SeJi19LXdzTU1tNJG3lmnIhCitRkM1tk
 langcode: en
 uuid: 37f12cb1-e206-4f5d-ad5d-5beb86a4d8b2
-name: 'Drush Site-Install'
+name: 'Drupal platform demo'
 mail: drupal@hel.fi
 slogan: ''
 page:
