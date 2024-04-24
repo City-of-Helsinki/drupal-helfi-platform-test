@@ -18,8 +18,7 @@ settings:
   label: 'Telia ACE Widget'
   label_display: '0'
   provider: helfi_platform_config
-  chat_id: local-chat-info-eng
-  script_url: /wds/instances/J5XKjqJt/ACEWebSDK.min.js
+  chat_id: matkapalvelut-chat_en
 visibility:
   request_path:
     id: request_path
