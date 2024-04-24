@@ -1,4 +1,7 @@
-telia_chat_websdk:
-  version: 1.0
-  js:
-    'https://wds.ace.teliacompany.com/wds/instances/J5XKjqJt/ACEWebSDK.min.js': { type: external }
+telia_ace_demo:
+  version: 1.0.1
+  css:
+    theme:
+      assets/css/telia_ace.css: {}
+  dependencies:
+    - helfi_platform_config/user_consent_functions
