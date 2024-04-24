@@ -4032,12 +4032,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/City-of-Helsinki/drupal-helfi-platform-config.git",
-                "reference": "6792baccc1a5549113d831bd8f6e5f213725801c"
+                "reference": "6c1311c7e5010e18b2cfd9ddebce5b52e5a76e53"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/City-of-Helsinki/drupal-helfi-platform-config/zipball/6792baccc1a5549113d831bd8f6e5f213725801c",
-                "reference": "6792baccc1a5549113d831bd8f6e5f213725801c",
+                "url": "https://api.github.com/repos/City-of-Helsinki/drupal-helfi-platform-config/zipball/6c1311c7e5010e18b2cfd9ddebce5b52e5a76e53",
+                "reference": "6c1311c7e5010e18b2cfd9ddebce5b52e5a76e53",
                 "shasum": ""
             },
             "require": {
@@ -4157,7 +4157,7 @@
                 "source": "https://github.com/City-of-Helsinki/drupal-helfi-platform-config/tree/UHF-9551-telia-ace-fixes",
                 "issues": "https://github.com/City-of-Helsinki/drupal-helfi-platform-config/issues"
             },
-            "time": "2024-04-24T08:08:43+00:00"
+            "time": "2024-04-24T09:04:41+00:00"
         },
         {
             "name": "drupal/helfi_proxy",
