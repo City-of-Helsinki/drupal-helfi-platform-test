@@ -1,0 +1,27 @@
+uuid: d781b8c7-cdf8-4a04-b263-367dc56c943b
+langcode: en
+status: true
+dependencies:
+  module:
+    - helfi_demo
+    - system
+  theme:
+    - hdbt
+id: hdbt_teliaacedemo
+theme: hdbt
+region: attachments
+weight: 0
+provider: null
+plugin: telia_ace_demo
+settings:
+  id: telia_ace_demo
+  label: 'Telia ACE Demo (Knowledge, ACEWebSDK.min.js)'
+  label_display: '0'
+  provider: helfi_demo
+  chat_id: helsinki-testichat_en
+  script_url: /wds/instances/J5XKjqJt/ACEWebSDK.min.js
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /telia-ace-knowledge-chat

@@ -1,14 +1,14 @@
-uuid: c62ebe15-2cb6-4553-b00d-3c21a0c1033b
+uuid: 40e74141-79b3-4939-82d0-110723dce264
 langcode: en
 status: true
 dependencies:
   module:
-    - external_entities
+    - taxonomy
 _core:
-  default_config_hash: b992_ctKi8x2uXo88S2tFAxA93ZE0BXLdaTCeEictWk
-id: helfi_news_groups.field_frontpage_term_id
-field_name: field_frontpage_term_id
-entity_type: helfi_news_groups
+  default_config_hash: rt-IgYMC28O7P05klgGLEmUtKmog6zsOrFKVJIfK7AU
+id: taxonomy_term.field_external_id
+field_name: field_external_id
+entity_type: taxonomy_term
 type: string
 settings:
   max_length: 255

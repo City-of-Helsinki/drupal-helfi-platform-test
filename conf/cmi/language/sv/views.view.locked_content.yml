@@ -23,7 +23,7 @@ display:
             offset_label: Kompensera
       fields:
         node_bulk_form:
-          action_title: Åtgärd
+          action_title: Action
         title:
           label: Titel
           separator: ', '

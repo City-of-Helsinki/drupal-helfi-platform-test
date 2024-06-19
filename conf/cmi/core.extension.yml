@@ -8,6 +8,7 @@ module:
   block: 0
   breakpoint: 0
   ckeditor5: 0
+  ckeditor5_paste_filter: 0
   config: 0
   config_ignore: 0
   config_rewrite: 0
@@ -41,6 +42,7 @@ module:
   helfi_base_content: 0
   helfi_calculator: 0
   helfi_ckeditor: 0
+  helfi_demo: 0
   helfi_eu_cookie_compliance: 0
   helfi_global_announcement: 0
   helfi_image_styles: 0
@@ -78,6 +80,7 @@ module:
   helfi_tpr: 0
   helfi_tpr_config: 0
   helfi_user_roles: 0
+  help: 0
   image: 0
   image_style_quality: 0
   imagecache_external: 0
@@ -99,6 +102,7 @@ module:
   metatag_open_graph: 0
   metatag_twitter_cards: 0
   migrate: 0
+  monolog: 0
   mysql: 0
   node: 0
   oembed_providers: 0
@@ -109,6 +113,7 @@ module:
   path: 0
   path_alias: 0
   phpass: 0
+  raven: 0
   readonly_field_widget: 0
   redirect: 0
   responsive_image: 0

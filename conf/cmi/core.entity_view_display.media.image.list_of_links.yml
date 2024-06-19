@@ -10,6 +10,8 @@ dependencies:
     - responsive_image.styles.list_of_links__thumbnail
   module:
     - responsive_image
+_core:
+  default_config_hash: YgbSbTUvJH9gLh83nXnUFRm75TojXvMQgNcCo0fOJ1Q
 id: media.image.list_of_links
 targetEntityType: media
 bundle: image
