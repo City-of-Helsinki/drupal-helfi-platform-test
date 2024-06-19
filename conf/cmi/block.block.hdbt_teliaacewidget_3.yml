@@ -19,6 +19,7 @@ settings:
   label_display: '0'
   provider: helfi_platform_config
   chat_id: digituki_chat_en
+  chat_title: 'Digituki Chat'
   script_url: /wds/instances/J5XKjqJt/ACEWebSDK.min.js
 visibility:
   request_path:

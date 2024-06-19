@@ -5,7 +5,7 @@ display:
       fields:
         tpr_unit_bulk_form:
           label: 'Bulk update'
-          action_title: Åtgärd
+          action_title: Action
         name:
           label: Titel
           separator: ', '
