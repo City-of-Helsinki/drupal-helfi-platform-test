@@ -1,0 +1,7 @@
+telia_ace_demo:
+  version: 1.0.1
+  css:
+    theme:
+      assets/css/telia_ace.css: {}
+  dependencies:
+    - helfi_platform_config/user_consent_functions

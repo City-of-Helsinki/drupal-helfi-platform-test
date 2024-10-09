@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * @file
+ * Contains install functions for HELfi Demo module.
+ */
+
+declare(strict_types=1);
+
+/**
+ * Remove modules not supported by Drupal 10.
+ */
+function helfi_demo_update_10001() {
+  \Drupal::service('module_installer')->uninstall(['helfi_ahjo']);
+}
