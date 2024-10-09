@@ -6,8 +6,10 @@ dependencies:
     - field.field.tpr_unit.tpr_unit.field_content
     - field.field.tpr_unit.tpr_unit.field_lower_content
     - field.field.tpr_unit.tpr_unit.field_metatags
+    - field.field.tpr_unit.tpr_unit.field_phone_label
+    - field.field.tpr_unit.tpr_unit.field_phone_with_contacts
     - field.field.tpr_unit.tpr_unit.field_unit_type
-    - responsive_image.styles.image__3_2
+    - responsive_image.styles.main_image
   module:
     - address
     - entity_reference_revisions
@@ -18,7 +20,7 @@ dependencies:
     - telephone
     - text
 _core:
-  default_config_hash: SoKM8cPSwNeMsP8ZRG0b8B8n-e1Uy9yoMmPk018vmoY
+  default_config_hash: 0LrEY7n67O-mUK3FVJ9-xMT1pdpK4GOU4N8bkW87Lts
 id: tpr_unit.tpr_unit.default
 targetEntityType: tpr_unit
 bundle: tpr_unit
@@ -96,10 +98,9 @@ content:
     weight: 2
     region: content
   email:
-    type: string
+    type: email_mailto
     label: hidden
-    settings:
-      link_to_entity: false
+    settings: {  }
     third_party_settings: {  }
     weight: 8
     region: content
@@ -134,6 +135,24 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 17
+    region: content
+  field_phone_label:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 31
+    region: content
+  field_phone_with_contacts:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 33
     region: content
   highlights:
     type: tpr_connection
@@ -208,7 +227,7 @@ content:
     label: hidden
     settings:
       imagecache_external_link: ''
-      imagecache_external_responsive_style: image__3_2
+      imagecache_external_responsive_style: main_image
     third_party_settings: {  }
     weight: 3
     region: content
@@ -216,7 +235,7 @@ content:
     type: entity_reference_entity_view
     label: hidden
     settings:
-      view_mode: image
+      view_mode: main_image
       link: false
     third_party_settings: {  }
     weight: 4

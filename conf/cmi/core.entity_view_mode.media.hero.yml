@@ -4,6 +4,8 @@ status: true
 dependencies:
   module:
     - media
+_core:
+  default_config_hash: sQr5TjXhN6pEzneuo5RLxlS106KsBlhmv23PesDWxhg
 id: media.hero
 label: Hero
 description: ''

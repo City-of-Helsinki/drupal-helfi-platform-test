@@ -6,7 +6,7 @@ dependencies:
     - helfi_tpr
     - user
 _core:
-  default_config_hash: S9x0yQ8JWUy_Sm3MzYDaabXnCvjvLQ7wzxecin7QT8o
+  default_config_hash: XvItl9zF-dUj3C53FT6DsrPnrWfvPCy5IZYsdoXew7U
 id: er_tpr_unit
 label: 'Entity reference - TPR Unit'
 module: views
@@ -105,6 +105,7 @@ display:
             items_per_page_options_all_label: '- All -'
             offset: false
             offset_label: Offset
+          pagination_heading_level: h4
       exposed_form:
         type: basic
         options:
