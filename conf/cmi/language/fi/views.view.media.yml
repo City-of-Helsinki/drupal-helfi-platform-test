@@ -5,7 +5,7 @@ display:
     display_options:
       fields:
         media_bulk_form:
-          action_title: Toiminto
+          action_title: Action
         thumbnail__target_id:
           label: Pienoiskuva
           separator: ', '

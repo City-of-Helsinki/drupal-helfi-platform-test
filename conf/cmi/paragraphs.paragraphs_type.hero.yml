@@ -2,6 +2,8 @@ uuid: cece081a-f18c-49d1-9783-e1fa1f14d4fb
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: aIerZy2fKrIMhCOPuLFTbV4otubqM_YtapQFqquK6Ec
 id: hero
 label: Hero
 icon_uuid: null

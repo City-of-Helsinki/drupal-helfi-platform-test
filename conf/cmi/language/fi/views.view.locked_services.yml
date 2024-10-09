@@ -6,8 +6,8 @@ display:
       title: 'Lukitut palvelut'
       fields:
         tpr_service_bulk_form:
-          label: Massapäivitys
-          action_title: Toiminto
+          label: 'Bulk update'
+          action_title: Action
         name:
           label: Otsikko
           separator: ', '

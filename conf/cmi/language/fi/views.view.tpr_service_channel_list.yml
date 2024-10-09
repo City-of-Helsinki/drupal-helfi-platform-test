@@ -23,8 +23,8 @@ display:
             offset_label: Offset
       fields:
         tpr_service_channel_bulk_form:
-          label: Massapäivitys
-          action_title: Toiminto
+          label: 'Bulk update'
+          action_title: Action
         name:
           label: Nimi
           separator: ', '
