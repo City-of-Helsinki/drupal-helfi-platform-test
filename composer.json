@@ -13,6 +13,7 @@
         "drupal/core-composer-scaffold": "^10.1",
         "drupal/hdbt": "^6.0",
         "drupal/hdbt_admin": "^3.0",
+        "drupal/helfi_api_base": "^2.0",
         "drupal/helfi_azure_fs": "^2.0",
         "drupal/helfi_drupal_tools": "dev-main",
         "drupal/helfi_navigation": "^2.0",
@@ -20,6 +21,7 @@
         "drupal/helfi_proxy": "^3.0",
         "drupal/helfi_tpr": "^2.1",
         "drupal/helfi_tunnistamo": "^3.0",
+        "drupal/raven": "^5.0",
         "drush/drush": "^12"
     },
     "require-dev": {
@@ -47,7 +49,8 @@
             "cweagans/composer-patches": true,
             "drupal/core-composer-scaffold": true,
             "phpstan/extension-installer": true,
-            "php-http/discovery": true
+            "php-http/discovery": false,
+            "tbachert/spi": true
         },
         "audit": {
             "abandoned": "report",
