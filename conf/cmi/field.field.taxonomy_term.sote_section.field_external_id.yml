@@ -1,0 +1,21 @@
+uuid: 4183b5a6-f6bc-4504-a414-b1a8b7d4f31a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_external_id
+    - taxonomy.vocabulary.sote_section
+_core:
+  default_config_hash: '-GzvJ95wcXGJ4lnKzGCJmKJ0HdyaCe1oI6xswsIegvI'
+id: taxonomy_term.sote_section.field_external_id
+field_name: field_external_id
+entity_type: taxonomy_term
+bundle: sote_section
+label: 'External Id'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

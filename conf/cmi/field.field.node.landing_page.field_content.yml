@@ -62,6 +62,7 @@ settings:
       service_list: service_list
       service_list_search: service_list_search
       unit_contact_card: unit_contact_card
+      unit_search: unit_search
     negate: 0
     target_bundles_drag_drop:
       banner:
