@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9e04d9c8a86c1a5a1a8ba47adbc6ba29",
+    "content-hash": "d95cb038c60ef7736f43d8356fb08d7f",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -4753,16 +4753,16 @@
         },
         {
             "name": "drupal/helfi_ahjo",
-            "version": "dev-drupal-10-compatibility",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/City-of-Helsinki/drupal-module-helfi-ahjo-org-chart.git",
-                "reference": "8907be2ae0fcbb7760efa33608851b875e6c1f9f"
+                "reference": "a01389c802d47d010bec12dcd65cec9fe2ecfd74"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/City-of-Helsinki/drupal-module-helfi-ahjo-org-chart/zipball/8907be2ae0fcbb7760efa33608851b875e6c1f9f",
-                "reference": "8907be2ae0fcbb7760efa33608851b875e6c1f9f",
+                "url": "https://api.github.com/repos/City-of-Helsinki/drupal-module-helfi-ahjo-org-chart/zipball/a01389c802d47d010bec12dcd65cec9fe2ecfd74",
+                "reference": "a01389c802d47d010bec12dcd65cec9fe2ecfd74",
                 "shasum": ""
             },
             "require": {
@@ -4788,10 +4788,10 @@
             ],
             "description": "Organisation information for SOTE section of päätökset site",
             "support": {
-                "source": "https://github.com/City-of-Helsinki/drupal-module-helfi-ahjo-org-chart/tree/drupal-10-compatibility",
+                "source": "https://github.com/City-of-Helsinki/drupal-module-helfi-ahjo-org-chart/tree/1.1.0",
                 "issues": "https://github.com/City-of-Helsinki/drupal-module-helfi-ahjo-org-chart/issues"
             },
-            "time": "2024-03-13T14:27:27+00:00"
+            "time": "2024-10-15T13:29:54+00:00"
         },
         {
             "name": "drupal/helfi_api_base",
@@ -20037,7 +20037,6 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "drupal/helfi_ahjo": 20,
         "drupal/helfi_drupal_tools": 20
     },
     "prefer-stable": true,
