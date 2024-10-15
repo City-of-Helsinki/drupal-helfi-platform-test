@@ -1,0 +1,5 @@
+base_url: 'https://drupal-paatokset.stage.hel.ninja/fi/ahjo-proxy/org-chart'
+organigram_max_depth: null
+sync_interval: '86400'
+org_id: '00001'
+max_depth: '4'
