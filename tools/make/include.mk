@@ -22,16 +22,23 @@ include $(DRUIDFI_TOOLS_MAKE_DIR)symfony.mk
 endif
 
 #
+# Other tools
+#
+
+HAS_ANSIBLE ?= $(shell test -d ansible && echo yes || echo no)
+
+ifeq ($(HAS_ANSIBLE),yes)
+include $(DRUIDFI_TOOLS_MAKE_DIR)ansible.mk
+endif
+
+#
 # Hosting systems
 #
 
 LAGOON := $(shell test -f .lagoon.yml && echo yes || echo no)
-WODBY := $(shell test -f wodby.yml && echo yes || echo no)
 
 ifeq ($(LAGOON),yes)
 	SYSTEM := LAGOON
-else ifeq ($(WODBY),yes)
-	SYSTEM := WODBY
 else
 	SYSTEM := WHOKNOWS
 endif

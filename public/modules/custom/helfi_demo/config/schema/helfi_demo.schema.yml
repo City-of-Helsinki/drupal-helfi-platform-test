@@ -1,0 +1,7 @@
+block.settings.telia_ace_demo:
+  type: block_settings
+  label: 'Block config translation for Telia ACE Demo widget'
+  mapping:
+    chat_id:
+      type: text
+      label: 'Chat widget ID'

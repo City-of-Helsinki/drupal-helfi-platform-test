@@ -2,6 +2,8 @@ uuid: 2318eadf-eb4b-41ad-8a52-56c06609e645
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: IxbBxQpwTHAosiqZXzMlXTSiLA2-mZs2g4lZ48xwpkA
 id: node__landing_page
 label: 'Content: Landing page'
 tags:

@@ -1,9 +1,9 @@
-uuid: b8dc217a-5ef1-4e37-bc76-6bdb05bd7d9d
+uuid: 072df4c4-3de5-44f9-bd4f-c1d09006ce88
 langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: XBOd0Lfy5FpXJkeuZi75vBaT7ffFCENINrui5kCVygo
+  default_config_hash: klULx3zqlYgz7OOfeGsjBYHQmFp8V6_aMlFUYaOQRmA
 id: helfi_announcements
 label: 'Helfi: Announcements'
 label_plural: 'Helfi: Announcements'
@@ -37,6 +37,8 @@ field_mapper_config:
       value: '$.attributes["field_announcement_link"]["title"]'
     announcement_link_url:
       value: '$.attributes["field_announcement_link"]["uri"]'
+    announcement_assistive_technology_close_button_title:
+      value: '$.attributes["field_announcement_title"]'
 storage_client_id: helfi_announcements
 storage_client_config: {  }
 persistent_cache_max_age: -1

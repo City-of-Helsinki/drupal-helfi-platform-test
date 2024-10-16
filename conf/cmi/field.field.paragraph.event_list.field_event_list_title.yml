@@ -5,6 +5,8 @@ dependencies:
   config:
     - field.storage.paragraph.field_event_list_title
     - paragraphs.paragraphs_type.event_list
+_core:
+  default_config_hash: '-iLVURM2P3q8VXUavzrrFropCMLgHGusZqAfpCD_NBM'
 id: paragraph.event_list.field_event_list_title
 field_name: field_event_list_title
 entity_type: paragraph

@@ -7,6 +7,8 @@ dependencies:
     - paragraphs.paragraphs_type.contact_card
   module:
     - image
+_core:
+  default_config_hash: OwkKC_jXvLDFDw1_kbW7VDJmW4Y5tKbQlyx1NsWhczQ
 id: paragraph.contact_card.field_contact_image
 field_name: field_contact_image
 entity_type: paragraph

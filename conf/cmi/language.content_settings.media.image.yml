@@ -9,6 +9,8 @@ dependencies:
 third_party_settings:
   content_translation:
     enabled: true
+_core:
+  default_config_hash: cx6akatvU1_L9rx9L9IB2MJvHvujxXfb9wzpA9NTpfA
 id: media.image
 target_entity_type_id: media
 target_bundle: image

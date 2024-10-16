@@ -10,6 +10,8 @@ dependencies:
     - responsive_image.styles.image__3_2
   module:
     - responsive_image
+_core:
+  default_config_hash: 66iWopqoZgN6srOHx13N5NNQwoS0eUWAiw0gHzgwLQM
 id: media.image.image
 targetEntityType: media
 bundle: image
@@ -21,6 +23,8 @@ content:
     settings:
       responsive_image_style: image__3_2
       image_link: ''
+      image_loading:
+        attribute: eager
     third_party_settings: {  }
     weight: 0
     region: content

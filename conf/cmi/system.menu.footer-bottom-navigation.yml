@@ -2,6 +2,8 @@ uuid: 76d4246a-df15-4f5d-94c3-59f3805e1295
 langcode: und
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: sYo9ie-CwYc8z--1OcdxmY4P4N3n5yUKHaWeZgwVVNk
 id: footer-bottom-navigation
 label: 'Footer - Bottom navigation'
 description: 'Bottom navigation for footer block.'

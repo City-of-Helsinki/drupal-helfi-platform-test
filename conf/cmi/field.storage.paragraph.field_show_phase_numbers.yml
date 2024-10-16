@@ -4,6 +4,8 @@ status: true
 dependencies:
   module:
     - paragraphs
+_core:
+  default_config_hash: qqRkeqyuxJGLNACxdGaKOel6V4f01HUEULiF9UyJZtc
 id: paragraph.field_show_phase_numbers
 field_name: field_show_phase_numbers
 entity_type: paragraph

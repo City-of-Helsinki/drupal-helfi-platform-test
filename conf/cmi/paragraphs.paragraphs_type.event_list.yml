@@ -2,6 +2,8 @@ uuid: 501abbec-ef87-4e66-b70a-40c52a910a7c
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: bZdS9kHu54mP1J9BFvLrJL5LnpgwJmleDG5HQNwvx9M
 id: event_list
 label: Events
 icon_uuid: null
