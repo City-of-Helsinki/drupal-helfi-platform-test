@@ -21,6 +21,7 @@ dependencies:
     - paragraphs.paragraphs_type.remote_video
     - paragraphs.paragraphs_type.service_list
     - paragraphs.paragraphs_type.service_list_search
+    - paragraphs.paragraphs_type.sote_section
     - paragraphs.paragraphs_type.target_group_links
     - paragraphs.paragraphs_type.unit_contact_card
     - paragraphs.paragraphs_type.unit_search
@@ -53,25 +54,41 @@ settings:
       map: map
       remote_video: remote_video
       chart: chart
+      content_liftup: content_liftup
       target_group_links: target_group_links
       event_list: event_list
-      news_list: news_list
       hearings: hearings
       service_list: service_list
       service_list_search: service_list_search
       unit_search: unit_search
       unit_contact_card: unit_contact_card
+      sote_section: sote_section
     negate: 0
     target_bundles_drag_drop:
+      accordion:
+        weight: 37
+        enabled: false
+      accordion_item:
+        weight: 38
+        enabled: false
       banner:
         weight: 2
         enabled: true
+      calculator:
+        weight: 40
+        enabled: false
       chart:
         weight: 10
         enabled: true
       columns:
         weight: 6
         enabled: true
+      contact_card:
+        weight: 43
+        enabled: false
+      contact_card_listing:
+        weight: 44
+        enabled: false
       content_cards:
         weight: 1
         enabled: true
@@ -84,12 +101,21 @@ settings:
       hearings:
         weight: 14
         enabled: true
+      hero:
+        weight: 50
+        enabled: false
+      image:
+        weight: 51
+        enabled: false
       liftup_with_image:
         weight: 3
         enabled: true
       list_of_links:
         weight: 0
         enabled: true
+      list_of_links_item:
+        weight: 54
+        enabled: false
       map:
         weight: 8
         enabled: true
@@ -99,6 +125,12 @@ settings:
       phasing:
         weight: 7
         enabled: true
+      phasing_item:
+        weight: 58
+        enabled: false
+      popular_service_item:
+        weight: 60
+        enabled: false
       popular_services:
         weight: 4
         enabled: true
@@ -111,9 +143,27 @@ settings:
       service_list_search:
         weight: 16
         enabled: true
+      sidebar_text:
+        weight: 64
+        enabled: false
+      social_media_link:
+        weight: 65
+        enabled: false
+      sote_section:
+        weight: 99
+        enabled: true
+      target_group_link_item:
+        weight: 68
+        enabled: false
       target_group_links:
         weight: 12
         enabled: true
+      text:
+        weight: 69
+        enabled: false
+      unit_accessibility_information:
+        weight: 70
+        enabled: false
       unit_contact_card:
         weight: 18
         enabled: true
