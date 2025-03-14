@@ -10,6 +10,8 @@ dependencies:
   module:
     - paragraphs
     - text
+_core:
+  default_config_hash: 6UAF8Xo1cGIMeGvuto1CsviXZv9bM5TyzySNPwKmqDg
 id: paragraph.contact_card_listing.default
 targetEntityType: paragraph
 bundle: contact_card_listing

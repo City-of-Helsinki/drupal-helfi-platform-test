@@ -8,7 +8,7 @@ dependencies:
     - helfi_tpr
     - user
 _core:
-  default_config_hash: GYMoCqFGp9UJCDJroJyIx4UVbaoO32pYdkm6p6oP2f8
+  default_config_hash: eARAnuC6-HpIkyzPvr9cTXbeyM0i-vaiPItVHK7PGDY
 id: unit_services
 label: 'Unit services'
 module: views
@@ -77,26 +77,9 @@ display:
           hide_alter_empty: true
           view_mode: teaser
       pager:
-        type: full
+        type: none
         options:
           offset: 0
-          items_per_page: 4
-          total_pages: null
-          id: 0
-          tags:
-            next: Next
-            previous: Previous
-            first: First
-            last: Last
-          expose:
-            items_per_page: false
-            items_per_page_label: 'Items per page'
-            items_per_page_options: '5, 10, 25, 50'
-            items_per_page_options_all: false
-            items_per_page_options_all_label: '- All -'
-            offset: false
-            offset_label: Offset
-          quantity: 9
       exposed_form:
         type: basic
         options:
@@ -168,7 +151,6 @@ display:
           default_argument_options:
             index: 1
             use_alias: false
-          default_argument_skip_url: false
           summary_options:
             base_path: ''
             count: true
@@ -309,7 +291,6 @@ display:
       contexts:
         - 'languages:language_interface'
         - url
-        - url.query_args
         - user
         - user.permissions
       tags:
@@ -329,7 +310,6 @@ display:
       contexts:
         - 'languages:language_interface'
         - url
-        - url.query_args
         - user
         - user.permissions
       tags:

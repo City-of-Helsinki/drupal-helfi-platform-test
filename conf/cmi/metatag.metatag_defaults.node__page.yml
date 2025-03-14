@@ -2,6 +2,8 @@ uuid: beb37a7b-5bfe-4101-964e-14beab7d7848
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: FCzY3DYgTVYC6q7fgjEKTt3jTHOgRUhj1XmD2SE9O5I
 id: node__page
 label: 'Content: Page'
 tags: {  }

@@ -5,6 +5,8 @@ dependencies:
   module:
     - media
     - paragraphs
+_core:
+  default_config_hash: CYGHBtBjx_l3MDWTvvQlvTNsUubWkXvrjCGfHDhDGcw
 id: paragraph.field_chart_chart
 field_name: field_chart_chart
 entity_type: paragraph

@@ -2,6 +2,8 @@ uuid: b35d1426-f3fe-478d-8140-138422025ce2
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: taKOcL_5jvD5jui57mLj0c8bP9bgvb9QX1hBBbqcCj4
 id: phasing_item
 label: 'Phasing item'
 icon_uuid: null

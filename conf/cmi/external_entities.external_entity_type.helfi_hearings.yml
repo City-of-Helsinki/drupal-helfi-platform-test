@@ -2,6 +2,8 @@ uuid: 574f7d3d-6ad3-488f-b83d-3e39893c13c3
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: Z5cLehFHTeqGLzRMPiYu5ifBzZ2bCw3JYViB-iLqVWA
 id: helfi_hearings
 label: 'Helfi: Hearing'
 label_plural: 'Helfi: Hearing'

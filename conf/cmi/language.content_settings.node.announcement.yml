@@ -9,6 +9,8 @@ dependencies:
 third_party_settings:
   content_translation:
     enabled: true
+_core:
+  default_config_hash: j0gdhUGkHvcMO-o9H-rL6Qt9xh3ELUaJXeE5XVnyHi0
 id: node.announcement
 target_entity_type_id: node
 target_bundle: announcement

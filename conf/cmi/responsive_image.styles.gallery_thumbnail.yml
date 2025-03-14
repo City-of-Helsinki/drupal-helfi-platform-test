@@ -5,8 +5,12 @@ dependencies:
   config:
     - image.style.1_1_thumbnail
     - image.style.1_1_thumbnail_2x
+  module:
+    - helfi_image_styles
+_core:
+  default_config_hash: FZ-_wC1OLQNLznIQJEUA1-VJTDXBViLp3w989x3o3Y8
 id: gallery_thumbnail
-label: 'Gallery thumbnail'
+label: 'DEPRECATED Gallery thumbnail'
 image_style_mappings:
   -
     image_mapping_type: image_style
@@ -15,14 +19,14 @@ image_style_mappings:
     multiplier: 1x
   -
     image_mapping_type: image_style
-    image_mapping: 1_1_thumbnail_2x
-    breakpoint_id: helfi_image_styles.xs
-    multiplier: 2x
-  -
-    image_mapping_type: image_style
     image_mapping: 1_1_thumbnail
     breakpoint_id: helfi_image_styles.xxs
     multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: 1_1_thumbnail_2x
+    breakpoint_id: helfi_image_styles.xs
+    multiplier: 2x
   -
     image_mapping_type: image_style
     image_mapping: 1_1_thumbnail_2x

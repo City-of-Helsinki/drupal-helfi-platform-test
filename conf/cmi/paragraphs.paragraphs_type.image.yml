@@ -2,6 +2,8 @@ uuid: abea688f-2542-493c-9ff9-c210bf741704
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: 1SssfvmOYgyMpHLUsBS9oUQ0y9YlBXd-7dVdwvOHY5w
 id: image
 label: Image
 icon_uuid: null

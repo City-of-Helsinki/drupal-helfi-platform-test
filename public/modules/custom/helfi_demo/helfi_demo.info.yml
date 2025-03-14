@@ -1,0 +1,6 @@
+name: 'Helfi Demo'
+description: 'Just a demo module'
+type: module
+core_version_requirement: ^9 || ^10
+dependencies:
+  - helfi_platform_config:helfi_platform_config

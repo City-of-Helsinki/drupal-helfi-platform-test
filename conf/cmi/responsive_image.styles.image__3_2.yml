@@ -13,8 +13,12 @@ dependencies:
     - image.style.3_2_xs_2x
     - image.style.3_2_xxs
     - image.style.3_2_xxs_2x
+  module:
+    - helfi_image_styles
+_core:
+  default_config_hash: acsIYWfNVn-MHuYr6vIhbyN7srjNLwkP2YCz11ioS98
 id: image__3_2
-label: 'Image 3:2'
+label: 'DEPRECATED Image 3:2'
 image_style_mappings:
   -
     image_mapping_type: image_style
@@ -53,14 +57,14 @@ image_style_mappings:
     multiplier: 1x
   -
     image_mapping_type: image_style
-    image_mapping: 3_2_xs_2x
-    breakpoint_id: helfi_image_styles.xs
-    multiplier: 2x
-  -
-    image_mapping_type: image_style
     image_mapping: 3_2_xxs
     breakpoint_id: helfi_image_styles.xxs
     multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: 3_2_xs_2x
+    breakpoint_id: helfi_image_styles.xs
+    multiplier: 2x
   -
     image_mapping_type: image_style
     image_mapping: 3_2_xxs_2x

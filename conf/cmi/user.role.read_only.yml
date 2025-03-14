@@ -2,7 +2,12 @@ uuid: e203d396-acbb-4161-8981-bb4fca60d1c2
 langcode: en
 status: true
 dependencies:
+  config:
+    - node.type.announcement
+    - node.type.landing_page
+    - node.type.page
   module:
+    - file
     - helfi_tpr
     - node
     - paragraphs
@@ -16,6 +21,7 @@ weight: 2
 is_admin: null
 permissions:
   - 'access toolbar'
+  - 'delete own files'
   - 'view any unpublished announcement content'
   - 'view any unpublished landing_page content'
   - 'view any unpublished page content'
