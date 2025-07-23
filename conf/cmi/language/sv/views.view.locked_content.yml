@@ -15,15 +15,15 @@ display:
           tags:
             previous: ‹‹
             next: ››
-            first: '« Första'
-            last: 'Sista »'
+            first: Första
+            last: Sista
           expose:
             items_per_page_label: 'Inlägg per sida'
             items_per_page_options_all_label: '- Alla -'
             offset_label: Kompensera
       fields:
         node_bulk_form:
-          action_title: Action
+          action_title: Åtgärd
         title:
           label: Titel
           separator: ', '

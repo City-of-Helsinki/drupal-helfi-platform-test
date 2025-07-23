@@ -19,7 +19,7 @@ display:
             last: 'viimeinen »'
       fields:
         node_bulk_form:
-          action_title: Action
+          action_title: Toiminto
         title:
           label: Otsikko
           separator: ', '

@@ -20,17 +20,17 @@ display:
       pager:
         options:
           tags:
-            next: 'Nästa ›'
-            previous: '‹ Föregående'
-            first: '« Första'
-            last: 'Sista »'
+            next: Nästa
+            previous: Föregående
+            first: Första
+            last: Sista
           expose:
             offset_label: Kompensera
             items_per_page_label: 'Inlägg per sida'
             items_per_page_options_all_label: '- Alla -'
       exposed_form:
         options:
-          submit_button: Filtrera
+          submit_button: Verkställ
           exposed_sorts_label: 'Sortera efter'
           sort_asc_label: Stigande
           sort_desc_label: Fallande

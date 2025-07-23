@@ -5,7 +5,7 @@ display:
     display_options:
       fields:
         media_bulk_form:
-          action_title: Action
+          action_title: Toiminto
         thumbnail__target_id:
           label: Pienoiskuva
           separator: ', '
@@ -32,10 +32,10 @@ display:
       pager:
         options:
           tags:
-            next: 'Seuraava ›'
-            previous: '‹ Edellinen'
-            first: '« Ensimmäinen'
-            last: 'Viimeinen »'
+            next: Seuraava
+            previous: Edellinen
+            first: Ensimmäinen
+            last: Viimeinen
           expose:
             items_per_page_label: 'Merkintöjä sivua kohti'
             items_per_page_options_all_label: '- Kaikki -'
