@@ -6,7 +6,6 @@ dependencies:
     - field.field.paragraph.news_list.field_helfi_news_groups
     - field.field.paragraph.news_list.field_helfi_news_neighbourhoods
     - field.field.paragraph.news_list.field_helfi_news_tags
-    - field.field.paragraph.news_list.field_limit
     - field.field.paragraph.news_list.field_news_list_description
     - field.field.paragraph.news_list.field_news_list_title
     - paragraphs.paragraphs_type.news_list
@@ -66,5 +65,4 @@ content:
     third_party_settings: {  }
     weight: 2
     region: content
-hidden:
-  field_limit: true
+hidden: {  }

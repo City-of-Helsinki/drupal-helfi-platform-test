@@ -19,7 +19,7 @@ display:
             last: 'sista »'
       fields:
         node_bulk_form:
-          action_title: Action
+          action_title: Åtgärd
         title:
           label: Titel
           separator: ', '

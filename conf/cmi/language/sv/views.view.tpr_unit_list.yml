@@ -13,8 +13,8 @@ display:
       pager:
         options:
           tags:
-            first: '« Första'
-            last: 'Sista »'
+            first: Första
+            last: Sista
             previous: ‹‹
             next: ››
           expose:
@@ -44,7 +44,7 @@ display:
           separator: ', '
         tpr_unit_bulk_form:
           label: 'Bulk update'
-          action_title: Action
+          action_title: Åtgärd
       filters:
         combine:
           expose:

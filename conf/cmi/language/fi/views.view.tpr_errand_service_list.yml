@@ -15,8 +15,8 @@ display:
           tags:
             previous: '‹ Edellinen'
             next: 'Seuraava ›'
-            first: '« Ensimmäinen'
-            last: 'Viimeinen »'
+            first: Ensimmäinen
+            last: Viimeinen
           expose:
             items_per_page_label: 'Merkintöjä sivua kohti'
             items_per_page_options_all_label: '- Kaikki -'
@@ -24,7 +24,7 @@ display:
       fields:
         tpr_errand_service_bulk_form:
           label: 'Bulk update'
-          action_title: Action
+          action_title: Toiminto
         name:
           label: Nimi
           separator: ', '

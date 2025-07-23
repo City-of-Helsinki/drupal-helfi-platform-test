@@ -8,6 +8,7 @@ dependencies:
     - helfi_api_base
     - helfi_tpr
     - media
+    - raven
     - system
 _core:
   default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
@@ -17,7 +18,9 @@ weight: 0
 is_admin: false
 permissions:
   - 'access content'
+  - 'access debug api'
   - 'display eu cookie compliance popup'
+  - 'send javascript errors to sentry'
   - 'view helfi_announcements external entity'
   - 'view helfi_news external entity'
   - 'view helfi_news_groups external entity'

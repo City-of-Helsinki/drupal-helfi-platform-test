@@ -5,7 +5,7 @@ display:
     display_options:
       fields:
         media_bulk_form:
-          action_title: Action
+          action_title: Åtgärd
         thumbnail__target_id:
           label: Miniatyr
           separator: ', '
@@ -32,10 +32,10 @@ display:
       pager:
         options:
           tags:
-            next: 'Nästa ›'
-            previous: '‹ Föregående'
-            first: '« Första'
-            last: 'Sista »'
+            next: Nästa
+            previous: Föregående
+            first: Första
+            last: Sista
           expose:
             items_per_page_label: 'Inlägg per sida'
             items_per_page_options_all_label: '- Alla -'
